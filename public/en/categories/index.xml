@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Bert Pollack Data Warehousing</title>
+    <link>http://bp-dwh.de/en/categories/</link>
+    <description>Recent content in Categories on Bert Pollack Data Warehousing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2023 Max Erler</copyright><atom:link href="http://bp-dwh.de/en/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
