@@ -28,9 +28,9 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "info@bp-dwh.de"
 
-- name: Phone
-  icon: "fas fa-phone-flip"
-  url: "tel:+491742769064"
+- name: Telefon
+  icon: "fa fa-phone"
+  url: "+491742769064"
 
 #- name: Github
 #  icon: "fab fa-github"
@@ -47,6 +47,14 @@ socialLinks:
 - name: Xing
   icon: "fab fa-xing"
   url: "https://www.xing.com/profile/Bert_Pollack/cv"
+
+- name: Gulp
+  icon: "./images/sections/about/gulp.png"
+  url: "https://www.gulp.de/gulp2/g/spezialisten/profil/bpmue"
+
+- name: Signal
+  icon: "./images/sections/about/signal.png"
+  url: "+491742769064"
 
 #- name: Twitter
 #  icon: "fab fa-twitter"
