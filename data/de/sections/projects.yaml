@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Kunden
+  name: Kundenauswahl
   id: projects
   enable: true
   weight: 5
@@ -32,7 +32,7 @@ projects:
 - name: o2 Online
   logo: /images/sections/skills/o2.svg
   role: Telefónica Deutschland Holding
-  timeline: "TODO Jahre"
+  timeline: "2 Jahre"
   url: "https://www.o2online.de/" 
   summary: O2 Online ist ein Telekommunikationsunternehmen, das Mobilfunk- und Breitbanddienste in Deutschland anbietet. Das Unternehmen bietet seinen Kunden eine breite Palette von Tarifen und Geräten sowie einen zuverlässigen Kundenservice.
   tags: ["Mobilfunk"]
@@ -40,7 +40,7 @@ projects:
 - name: Oracle
   logo: /images/sections/skills/oracle.svg
   role: Oracle Corporation
-  timeline: "TODO Jahre"
+  timeline: "5 Jahre"
   url: "https://www.oracle.com" 
   summary: Oracle ist ein führendes Unternehmen im Bereich der Unternehmenssoftware und Datenbanken. Es bietet eine breite Palette von Cloud-Lösungen, darunter Datenbanken, Anwendungen, Plattformen und Infrastruktur. Oracle ist auch ein wichtiger Anbieter von Hardware-Systemen und bietet einen umfassenden Support und Schulungen für seine Produkte.
   tags: ["IT"]
@@ -48,7 +48,7 @@ projects:
 - name: PostFinance
   logo: /images/sections/skills/postfinance.svg
   role: PostFinance AG
-  timeline: "TODO Jahre"
+  timeline: "1 Jahr"
   url: "https://www.postfinance.ch" 
   summary: PostFinance ist ein Finanzdienstleistungsunternehmen in der Schweiz und bietet eine breite Palette von Bankdienstleistungen an, einschließlich Zahlungsverkehr, Sparen, Kredite und Vermögensverwaltung. Das Unternehmen legt großen Wert auf digitale Innovation und bietet seinen Kunden eine einfache und bequeme Online-Banking-Plattform sowie mobile Anwendungen.
   tags: ["Finanzen"]
@@ -56,7 +56,7 @@ projects:
 - name: NTT DATA
   logo: /images/sections/skills/ntt.svg
   role: Nippon Telegraph and Telephone Group
-  timeline: "TODO Jahre"
+  timeline: "1 Jahr"
   url: "https://www.nttdata.com/global/en/" 
   summary: NTT DATA ist ein globales IT-Unternehmen, das eine breite Palette von IT-Dienstleistungen anbietet, darunter Beratung, Systemintegration, Outsourcing und Cloud-Lösungen. Das Unternehmen ist auch führend in den Bereichen künstliche Intelligenz, IoT und Big Data Analytics und bietet seinen Kunden innovative Lösungen für ihre geschäftlichen Herausforderungen. NTT DATA hat seinen Hauptsitz in Japan und ist in über 50 Ländern tätig.
   tags: ["IT"]
@@ -64,7 +64,7 @@ projects:
 - name: Süddeutscher Verlag GmbH
   logo: /images/sections/skills/sv.svg
   role: Südwestdeutsche Medien Holding GmbH
-  timeline: "TODO Jahre"
+  timeline: "5 Jahre"
   url: "https://www.sueddeutscher-verlag.de/" 
   summary: Die Süddeutscher Verlag GmbH ist ein führendes Medienunternehmen in Deutschland und veröffentlicht unter anderem die Süddeutsche Zeitung. Das Unternehmen bietet seinen Kunden auch digitale Medienprodukte, darunter Webseiten, Apps und E-Books. Mit seinen hochwertigen Inhalten und einem starken Fokus auf Qualität und Unabhängigkeit hat sich der Süddeutscher Verlag GmbH als eine vertrauenswürdige Informationsquelle etabliert.
   tags: ["Medien"]
@@ -72,7 +72,7 @@ projects:
 - name: BAMF
   logo: /images/sections/skills/bamf.svg
   role: Bundesamt für Migration und Flüchtlinge
-  timeline: "TODO Jahre"
+  timeline: "1 Jahr"
   url: "https://www.bamf.de/DE/Startseite/startseite_node.html" 
   summary: Das Bundesamt für Migration und Flüchtlinge (BAMF) ist eine Bundesbehörde in Deutschland, die für die Durchführung von Asylverfahren und die Integration von Migranten zuständig ist. Das BAMF setzt sich für eine faire und humane Behandlung von Flüchtlingen ein.
   tags: ["Öffentliche Verwaltung"]
@@ -80,7 +80,7 @@ projects:
 - name: Deutsche Funkturm GmbH
   logo: /images/sections/skills/dfmg.svg
   role: Deutsche Telekom AG
-  timeline: "TODO Jahre"
+  timeline: "1 Jahr"
   url: "https://www.dfmg.de/de/startseite.html" 
   summary: Die Deutsche Funkturm GmbH ist ein Tochterunternehmen der Deutschen Telekom und betreibt rund 29.000 Mobilfunkstandorte in Deutschland. Das Unternehmen bietet seinen Kunden maßgeschneiderte Lösungen für ihre Mobilfunkinfrastruktur und sorgt für eine zuverlässige und schnelle Mobilfunkversorgung.
   tags: ["Mobilfunk"]
@@ -88,7 +88,7 @@ projects:
 - name: KRONES
   logo: /images/sections/skills/krones.svg
   role: Krones AG
-  timeline: "TODO Jahre"
+  timeline: "2 Jahre"
   url: "https://www.krones.com/en/" 
   summary: Krones ist ein führender Hersteller von Verpackungs- und Abfüllanlagen für die Getränke- und Lebensmittelindustrie. Das Unternehmen bietet innovative Lösungen für seine Kunden und legt großen Wert auf Nachhaltigkeit und Effizienz in der Produktion.
   tags: ["Nahrung"]
@@ -96,7 +96,7 @@ projects:
 - name: Consors Finanz
   logo: /images/sections/skills/consors.svg
   role: BNP Paribas S.A. Niederlassung Deutschland
-  timeline: "TODO Jahre"
+  timeline: "12 Jahre"
   url: "https://www.consorsfinanz.de/" 
   summary: Consors Finanz ist ein führender Anbieter von Finanzdienstleistungen in Deutschland. Das Unternehmen bietet seinen Kunden eine breite Palette von Finanzprodukten, darunter Kredite, Versicherungen und Zahlungslösungen. Consors Finanz legt großen Wert auf eine einfache und kundenorientierte Abwicklung.
   tags: ["Finanzen"]
@@ -104,7 +104,7 @@ projects:
 - name: Siemens
   logo: /images/sections/skills/siemens.svg
   role: Siemens AG
-  timeline: "TODO Jahre"
+  timeline: "4 Jahre"
   url: "https://www.siemens.com/de/de.html" 
   summary: Siemens ist ein globales Unternehmen mit Hauptsitz in Deutschland, das in den Bereichen Elektrifizierung, Automatisierung und Digitalisierung tätig ist. Das Unternehmen bietet innovative Lösungen für Energie, Mobilität und Industrie und setzt sich für Nachhaltigkeit und soziale Verantwortung ein.
   tags: ["IT"]
@@ -112,7 +112,7 @@ projects:
 - name: AOK
   logo: /images/sections/skills/aok.svg
   role: Allgemeine Ortskrankenkasse
-  timeline: "TODO Jahre"
+  timeline: "5 Jahre"
   url: "https://www.aok.de/pk/" 
   summary: Die AOK (Allgemeine Ortskrankenkasse) ist eine gesetzliche Krankenkasse in Deutschland und bietet ihren Mitgliedern eine umfassende medizinische Versorgung. Das Unternehmen setzt sich für Prävention und Gesundheitsförderung ein und legt großen Wert auf eine individuelle Betreuung.
   tags: ["Versicherung", "Finanzen"]
