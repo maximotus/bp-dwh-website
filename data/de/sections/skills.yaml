@@ -1,0 +1,77 @@
+# section information
+section:
+  name: Kenntnisse
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Oracle Produkte
+  logo: /images/sections/skills/oracle.svg
+  summary: "Oracle RDBMS (Sun Solaris, HP UX, Windows), Oracle Designer/2000 V2, Oracle Warehouse Builder, Oracle Data Integrator, Oracle Workflow, Oracle Business Intelligence Standard Edition, Oracle Business Intelligence Enterprise Edition, Oracle WebDB, Oracle Discoverer, Oracle Reports, Oracle SQL Developer, Oracle Data Modeler, Oracle Application Server, Oracle Internet Application Server, Oracle Application Express (Apex), Oracle Balanced Scorecard, SQL*Loader, T.O.A.D, SQL-Navigator, PL/SQL Developer, Oracle SQL Developer, Oracle Data Modeler"
+  url: "hhttps://www.oracle.com/de/products/"
+
+- name: SAP Produkte
+  logo: /images/sections/skills/sap.svg
+  summary: "SAP BusinessObjects Edge, SAP BusinessObjects Crystel Reports 2008, Sybase Power Designer. SAP BusinessObjects ist eine Business Intelligence-Plattform, die eine umfassende Sicht auf Geschäftsdaten bietet. Sie ermöglicht die Erstellung von Berichten, Analysen und Dashboards. Als BI-Experte unterstütze ich Sie gerne bei der Implementierung und Optimierung von SAP BusinessObjects."
+  url: "https://www.sap.com/germany/products.html"
+
+- name: SAS Produkte
+  logo: /images/sections/skills/sas.svg
+  summary: "SAS Enterprise Guide & SAS Visual Analytics. SAS Enterprise Guide ist eine benutzerfreundliche Business-Intelligence-Software, während SAS Visual Analytics leistungsstarke Visualisierungsfunktionen bietet. Beide Plattformen ermöglichen es Benutzern, Daten einfach zu verwalten und zu analysieren. Als BI-Experte unterstütze ich Sie gerne bei der Anwendung und Optimierung von SAS Enterprise Guide und SAS Visual Analytics."
+  url: "https://support.sas.com/en/software/enterprise-guide-support.html"
+
+- name: Microsoft Produkte
+  logo: /images/sections/skills/microsoft.svg
+  summary: "Microsoft Access, Microsoft Excel, Visual Basic Programmierung. Excel bietet mit Visual Basic Programming eine flexible und benutzerdefinierte Programmierumgebung. Mit VBA können Makros und Anwendungen erstellt werden, um Excel-Funktionen zu erweitern. Als Datenanalyse-Experte unterstütze ich Sie gerne bei der Anwendung und Optimierung von Excel und Visual Basic Programming."
+  url: "https://www.microsoft.com/de-de/microsoft-365/excel"
+
+- name: IBM Cognos Business Intelligence
+  logo: /images/sections/skills/ibm.svg
+  summary: "IBM Cognos BI ist eine umfassende Business Intelligence-Plattform, die Analysen, Berichterstellung und Dashboards bietet. Sie ist benutzerfreundlich und ermöglicht schnelle Einblicke in komplexe Daten. Als BI-Experte unterstütze ich Sie gerne bei der Implementierung und Optimierung von IBM Cognos BI."
+  url: "https://www.ibm.com/de-de/products/cognos-analytics"
+
+- name: PASW Statistics 17
+  logo: /images/sections/skills/spss-an-ibm-company-logo.svg
+  summary: "PASW Statistics (ehemals SPSS) ist eine leistungsstarke Statistiksoftware, die bei der Datenauswertung und -analyse hilft. Sie bietet umfassende statistische Methoden und Visualisierungen. Als Statistikexperte unterstütze ich Sie gerne bei der Anwendung und Optimierung von PASW Statistics."
+  url: "https://www.ibm.com/de-de/products/spss-statistics"
+
+- name: Panoratio
+  logo: /images/sections/skills/panoratio.svg
+  summary: "PDI-Explorer & PDI-Configurator. Der Panoratio PDI Explorer ist eine benutzerfreundliche BI-Plattform, die komplexe Datenmodelle visualisiert und wertvolle Erkenntnisse durch die Aufdeckung von Zusammenhängen bietet. Gerne unterstütze ich Sie als erfahrener BI-Experte bei der Integration und Anwendung von PDI Explorer."
+  url: "https://www.panorat.io/"
+
+- name: Talend Open Studio
+  logo: /images/sections/skills/talend.svg
+  summary: "Talend Open Studio ist eine Open-Source-Integrationsplattform, die es Unternehmen ermöglicht, Daten aus verschiedenen Quellen zu sammeln, zu transformieren und zu laden. Sie bietet eine benutzerfreundliche Schnittstelle und ist für komplexe Datentransformationen geeignet. Als Datenintegrations-Experte unterstütze ich Sie gerne bei der Anwendung und Optimierung von Talend Open Studio."
+  url: "https://www.talend.com/de/products/talend-open-studio/"
+
+- name: Gupta RDBMS
+  #logo: /images/sections/skills/gupta.png
+  summary: "Gupta RDBMS ist eine relationale Datenbank, die sich durch ihre hohe Performance und Skalierbarkeit auszeichnet. Sie wird oft für anspruchsvolle Unternehmensanwendungen und Echtzeitverarbeitung verwendet. Als Datenbankexperte kann ich Ihnen bei der Integration und Verwaltung von Gupta RDBMS helfen."
+  url: "https://www.opentext.com/products/gupta-sqlbase"
+  
+- name: MongoDB
+  logo: /images/sections/skills/mongo_db.svg
+  summary: "MongoDB ist eine flexible, skalierbare NoSQL-Datenbank zur Speicherung unstrukturierter Daten in Echtzeit. Ideal für datenintensive Anwendungen wie IoT oder Mobile-Apps, lässt sich MongoDB nahtlos in Ihre Dateninfrastruktur integrieren. Als Experte stehe ich Ihnen bei der Verwaltung zur Seite."
+  url: "https://www.mongodb.com/de-de"
+
+- name: MySQL
+  logo: /images/sections/skills/mysql.svg
+  summary: "MySQL ist eine Open-Source-Relationale Datenbank mit hoher Geschwindigkeit und Zuverlässigkeit. Es ist eine häufig verwendete Datenbank für Webanwendungen und bietet Sicherheit, Skalierbarkeit und Hochverfügbarkeit. Als Datenbankexperte unterstütze ich Sie gerne bei der Verwaltung und Optimierung Ihrer MySQL-Datenbanken."
+  url: "https://www.mysql.com/de/"
+  
+- name: Atlassian Jira
+  logo: /images/sections/skills/jira.svg
+  summary: "Jira ist eine leistungsstarke Projektmanagement-Software, die es Unternehmen ermöglicht, Aufgaben, Projekte und Probleme effektiv zu verwalten. Es bietet eine intuitive Benutzeroberfläche und eine Vielzahl von Funktionen für agile Arbeitsabläufe. Als Projektmanagement-Experte unterstütze ich Sie gerne bei der Anwendung und Optimierung von Jira."
+  url: "https://www.atlassian.com/de/software/jira"
+  
+- name: Programmiersprachen
+  #logo: /images/sections/skills/sql.png
+  summary: "SQL, PL/SQL, Unix-Shellscripting, Visual Basic, VB-Scripting, DOS-Scripting, Turbo Pascal, DOS Batch-Programming, HTML, Java, XML, XSL. Mit diesem Wissen kann ich Daten effektiv verarbeiten und analysieren sowie leistungsstarke Anwendungen und Skripte erstellen. Als Datenanalyse-Experte kann ich Sie bei verschiedenen Projekten unterstützen."
+  url: "https://de.wikipedia.org/wiki/Programmiersprache"

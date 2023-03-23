@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legals on Bert Pollack</title>
+    <link>https://bp-dwh.de/legal/</link>
+    <description>Recent content in Legals on Bert Pollack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 15 Mar 2023 13:35:05 +0100</lastBuildDate><atom:link href="https://bp-dwh.de/legal/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Datenschutz</title>
+      <link>https://bp-dwh.de/legal/privacy/</link>
+      <pubDate>Wed, 15 Mar 2023 13:35:05 +0100</pubDate>
+      
+      <guid>https://bp-dwh.de/legal/privacy/</guid>
+      <description>Datenverarbeitung Diese Seite speichert keine persönlichen Daten. Es werden keine Cookies gesetzt und es werden keine IP-Adressen gespeichert.
+Erstellung der Website Die Implementierung der Website erfolgte durch den Freiberufler Max Erler im Jahr 2023.
+Zur Erstellung wurde das auf der Programmiersprache Go basierende statische Open-Source Seitengenerierungstool Hugo verwendet.
+Als Vorlage wurde das Open-Source Theme Toha verwendet. Das Github-Repository zu diesem Theme ist unter folgendem Link erreichbar: https://github.com/hugo-toha/toha.
+Haftungshinweis Dieses Theme steht unter der MIT-Lizenz.</description>
+    </item>
+    
+    <item>
+      <title>Impressum</title>
+      <link>https://bp-dwh.de/legal/imprint/</link>
+      <pubDate>Wed, 15 Mar 2023 13:35:05 +0100</pubDate>
+      
+      <guid>https://bp-dwh.de/legal/imprint/</guid>
+      <description>Angaben gemäß § 5 TMG Bert Pollack Freiberufler Geyerspergerstraße 44 80689 München
+Kontakt Telefon: + (0) 49 (0) 174 2769064 E-Mail: info@bp-dwh.de
+Verbraucher­streit­beilegung/Universal­schlichtungs­stelle Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+Haftung für Inhalte Als Diensteanbieter bin ich gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG bin ich als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

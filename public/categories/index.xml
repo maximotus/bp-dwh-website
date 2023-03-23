@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Bert Pollack Data Warehousing</title>
-    <link>http://bp-dwh.de/categories/</link>
-    <description>Recent content in Categories on Bert Pollack Data Warehousing</description>
+    <title>Categories on Bert Pollack</title>
+    <link>https://bp-dwh.de/categories/</link>
+    <description>Recent content in Categories on Bert Pollack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>2023 Max Erler</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate><atom:link href="http://bp-dwh.de/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>web-dev</title>
-      <link>http://bp-dwh.de/categories/web-dev/</link>
-      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      
-      <guid>http://bp-dwh.de/categories/web-dev/</guid>
-      <description></description>
-    </item>
-    
+    <language>de</language>
+    <lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://bp-dwh.de/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

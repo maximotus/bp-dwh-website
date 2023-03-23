@@ -1,0 +1,250 @@
+# section information
+section:
+  name: Erfahrung
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name:  Implementierung von ETL Prozessen, Oracle Support
+    # url: ""
+    location: München, Versicherung
+    # company overview
+    overview: Als Teammitglied in einem Projekt bei einer Versicherung mit Schwerpunkt ETL-Prozesse und Oracle-Support, arbeitet man engagiert an der Integration von Daten, gewährleistet eine reibungslose Funktion von Systemen und bietet effektive Lösungen für Geschäftsprobleme.
+  positions:
+  - designation: Teammitglied
+    start: 05/2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Erstellung von ETL Prozessen für die Beladung der MongoDB
+    - Erstellung komplexer fachlicher Views
+    - Oracle Unterstützung hinsichtlich Performance und Fehler
+    - Housekeeping
+    - "DV-Umgebung: Oracle RDBMS 18c , MongoDB 3.x, Talend Open Studio 5.x, 7.x, SQL, PL/SQL"
+
+  #- designation: Junior Software Engineer
+  #  start: Nov 2017
+  #  end: Oct 2019
+  #  responsibilities:
+  #  - Implement and test xyz feature for abc tool.
+  #  - Support client for abc tool.
+  #  - Learn k,d,w technology for xyz.
+- company:
+    name: Implementierung von Datamarts, Erstellung von Dashboards
+    # url: ""
+    location: München, Öffentliche Hand
+    # company overview
+    overview: Als Projektleiter und Teammitglied bei einem Projekt in öffentlicher Hand mit Schwerpunkt Implementierung von Datamarts und Erstellung von Dashboards, ist man verantwortlich für die effiziente Durchführung des Projekts, die Gewährleistung der Datenintegrität und die Bereitstellung von aussagekräftigen Informationen für Entscheidungsträger.
+  positions:
+  - designation: Projektleitung & Teammitglied 
+    start: 02/2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: 12/2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Datenmodellierung der Datamarts
+    - ETL Prozesse erstellen
+    - Automatisierung implementieren
+    - OBIEE Repository
+    - Dashboard- und Reporterstellung
+    - Performanceunterstützung
+    - allgemeine Projektunterstützung
+    - "DV-Umgebung: Oracle RDBMS 12c , Oracle Data Integrator 12c, Oracle BI EE 12, SQL, PL/SQL"
+- company:
+    name: OWB Ablösung, Oracle Performancesupport, Optimierungen
+    location: München, Industrie
+    overview: Bei der OWB-Ablösung, Oracle Performancesupport und Optimierungen in der Industrie, arbeitet man daran, die ETL-Prozesse zu verbessern, um eine effiziente Datenintegration zu ermöglichen. Durch Oracle Performancesupport wird die Leistung optimiert und in der Industrie werden betriebliche Abläufe rationalisiert und automatisiert, um Produktivität und Rentabilität zu steigern.
+  positions:
+  - designation: Teammitglied 
+    start: 07/2019
+    #end: 12/2020
+    responsibilities:
+    - Ablösung vorhandener OWB Mappings durch PL/SQL
+    - Performanceunterstützung
+    - allgemeine Oracle Unterstützung
+    - Housekeeping
+    - "DV-Umgebung: Oracle RDBMS 12c, Oracle Warehouse Builder 11gR2, Oracle Apex, SQL, PL/SQL"
+- company:
+    name: Performanceunterstützung
+    location: München, Finanzdienstleister
+    overview: Die Performanzunterstützung bei einem Finanzdienstleister umfasst die Analyse und Optimierung von Geschäftsprozessen, um eine höhere Effizienz und Rentabilität zu erreichen. Durch den Einsatz von Oracle-Technologien werden kritische Systeme überwacht und Leistungsprobleme gelöst, um eine unterbrechungsfreie Verfügbarkeit von Diensten sicherzustellen.
+  positions:
+  - designation: Teammitglied 
+    start: 04/2019
+    end: 07/2020
+    responsibilities:
+    - Optimierung der Datenbank und der Abfragen hinsichtlich Performanceoptimierung der Applikation
+    - "DV-Umgebung: Oracle RDBMS 12c, BMC Remedy"
+- company:
+    name: Implementierung von Datamarts
+    location: München, Bank
+    overview: Die Implementierung von Datamarts bei einer Bank umfasst die Schaffung einer zentralen Datenbank für eine bessere Datenintegration und -analyse. Datamarts ermöglichen eine effektive Verwaltung von Kundendaten und eine bessere Entscheidungsfindung durch präzise Berichte und Analysen. Der Einsatz von Oracle-Technologien gewährleistet eine reibungslose Integration und einen schnellen Datenzugriff.
+  positions:
+  - designation: Teammitglied 
+    start: 06/2018
+    end: 12/2020
+    responsibilities:
+    - Implementierung von Datamarts für die Bereiche Finanzen, Vertrieb und Risiko
+    - Unterstützung bei Reporten
+    - "DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SAS Enterprise Guide, SAS Visual Analytics, SQL, PL/SQL, SVN"
+- company:
+    name: Performanceunterstützung
+    location: München, Pharma
+    overview: Die Performanzunterstützung bei einem Pharmaunternehmen umfasst die Überwachung und Optimierung der kritischen Geschäftsprozesse, um eine reibungslose Produktion und Lieferung von Arzneimitteln zu gewährleisten. Oracle-Technologien werden eingesetzt, um Datenanalysen durchzuführen und Leistungsprobleme in Echtzeit zu beheben, um eine höhere Effizienz und Produktivität zu erzielen.
+  positions:
+  - designation: Teammitglied 
+    start: 09/2017
+    end: 08/2018
+    responsibilities:
+    - Performanceoptimierungen und -unterstützungen beim near real time load and reporting
+    - "DV-Umgebung: Oracle RDBMS 12c, Oracle Warehouse Builder 11gR2, IBM Cognos Business Intelligence, SQL, PL/SQL"
+- company:
+    name: Gemini Projektunterstützung
+    location: München, Bank
+    overview: Die Gemini-Projektunterstützung bei einer Bank bietet eine umfassende Palette von Dienstleistungen, die auf die Anforderungen des Kunden zugeschnitten sind. Dazu gehören Projektmanagement, Anforderungsanalyse, Datenmigration, technische Unterstützung und Schulungen. Gemini-Experten arbeiten eng mit dem Kunden zusammen, um eine erfolgreiche Umsetzung von Projekten sicherzustellen.
+  positions:
+  - designation: Teammitglied 
+    start: 01/2017
+    end: 08/2017
+    responsibilities:
+    - Anpassungen im Datenmodell, in den ETL Routinen sowie im OBIEE Reporting aufgrund der Beendigung des Joint Venture
+    - "DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SAS Enterprise Guide, SQL, PL/SQL, SVN"
+- company:
+    name: "Einführung eines neuen Kartenproduktes: Umsetzung der Reportingmöglichkeiten"
+    location: München, Bank
+    overview: Die Umsetzung von Reportingmöglichkeiten bei der Einführung eines neuen Kartenprodukts einer Bank beinhaltet die Schaffung von aussagekräftigen Berichten und Dashboards, um die Performance des Produkts zu überwachen und mögliche Verbesserungen zu identifizieren. Durch den Einsatz von Oracle-Technologien werden wichtige Daten aus verschiedenen Quellen integriert und visualisiert, um eine bessere Entscheidungsfindung zu ermöglichen.
+  positions:
+  - designation: Teammitglied 
+    start: 12/2016
+    end: 06/2018
+    responsibilities:
+    - "Implementierung des neuen Kartenproduktes NCP in das Data Warehouse: Datenmodell, ETL und OBIEE Anpassungen sowie Erstellung von Reporten, Anpassung von Provisions- und Gutschriftenprozessen"
+    - "DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SQL, PL/SQL, SVN"
+- company:
+    name: "Implementierungen aufgrund regulatorischer Anforderungen und Umsetzung eines analytischen Reportings für die Partner"
+    location: München, Bank
+    overview: Die Implementierung aufgrund regulatorischer Anforderungen und Umsetzung eines analytischen Reportings für die Partner bei einer Bank beinhaltet die Einhaltung der Anforderungen von Aufsichtsbehörden und die Erstellung von Berichten, um den Partnern Transparenz und Einblick in ihre Aktivitäten zu geben. Oracle-Technologien werden eingesetzt, um eine nahtlose Integration von Daten aus verschiedenen Quellen zu gewährleisten und die Erstellung von Berichten zu automatisieren, um Zeit und Ressourcen zu sparen.
+  positions:
+  - designation: Teammitglied 
+    start: 01/2016
+    end: 01/2017
+    responsibilities:
+    - Befüllung BAIS Schnittstelle
+    - Erstellung des analytischen Reportings für die Partner sowie Modellierung des notwendigen Datenmodells und dessen Befüllung
+    - Unterstützung bei der Implementierung des Financial Reporting (FinRep)
+    - "DV-Umgebung: Oracle RDBMS 11gR2, Oracle Data Integrator, Oracle BI EE, SAS Enterprise Guide, SQL, PL/SQL"
+- company:
+    name: Anpassungen und Ergänzungen im Data Warehouse
+    location: München, Bank
+    overview: Als Teilprojektleiter im Bereich der Data Warehouse-Anpassungen und -Ergänzungen bei einer Bank habe ich erfolgreich die Projektplanung koordiniert, das Projektteam geleitet und die Umsetzung der Anforderungen der Bank effektiv umgesetzt.
+  positions:
+  - designation: Teilprojektleitung & Teammitglied 
+    start: 04/2015
+    end: 12/2015
+    responsibilities:
+    - Erweiterung der Rückstandsklassen
+    - Anpassung des Monatsprovisionsreportings
+    - Implementierung eines X-Sell Data Marts
+    - Reorganisation des VIP Reportings
+    - Implementierung eines neuen Kundenschlüssels
+    - Implementierung der Daily Extraction im Data Warehouse
+    - Erweiterung der CAM Produkte
+    - Erweiterungen bei der Dept. Consolidation
+    - Unterstützung bei der Umsetzung des New Banking Frontends und der Pricing Engine
+    - Anpassung der EWB KoeffizientUmsetzung der automated DMA Increaseen
+    - "DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SQL, PL/SQL"
+- company:
+    name: Implementierung operativer Prozesse im Data Warehouse
+    location: München, Bank (E-Commerce)
+    overview: Als Projektleiter bei einer Bank im E-Commerce-Bereich habe ich erfolgreich operativen Prozesse im Data Warehouse implementiert. Dabei habe ich ein multidisziplinäres Team geleitet und eng mit anderen Abteilungen zusammengearbeitet, um sicherzustellen, dass die Ziele des Projekts erreicht wurden.
+  positions:
+  - designation: Projektleitung & Teilprojektleitung & Architekt & Entwickler & Teammitglied 
+    start: 01/2014
+    end: 04/2015
+    responsibilities:
+    - Umsetzung eines revisionssicheren Prozesses der Gutschriftenermittlung
+    - Qualitätsüberprüfung und revisionssichere Anpassung operativer Informationen
+    - Implementierung Eingabesysteme für die Fachbereiche
+    - Migration diverser Daten aus den Vorsystemen
+    - Implementierung eines Kundenschlüssels
+    - diverses operatives Reporting für die Bafin sowie Partner
+    - Implementierung von Provisionsberechnungen
+    - Implementierung des operativen Reportings für das Call Center
+    - "DV-Umgebung: Oracle RDBMS 11gR2, Oracle Data Integrator, Oracle BI EE, SQL, PL/SQL"
+- company:
+    name: Data Warehouse Erstellung und Optimierung
+    location: München, Bank
+    overview: Als Projektleiter für die Data Warehouse Erstellung und Optimierung einer Bank war ich verantwortlich für die erfolgreiche Umsetzung des Projekts. Ich habe ein multidisziplinäres Team geleitet, um sicherzustellen, dass die Anforderungen der Bank erfüllt und das Projekt pünktlich und innerhalb des Budgets abgeschlossen wurde.
+  positions:
+  - designation: Projektleitung & Teilprojektleitung & Teammitglied 
+    start: 11/2009
+    end: 04/2015
+    responsibilities:
+    - Aufbau DWH Vertriebsdatenbank für Konsumerkredite
+    - Aufbau Reportingsystem für externe Partner
+    - Integration der Transaktionen ins DWH
+    - Konvertierungsprozess
+    - Integration der Mahntransaktionen
+    - Definition, Review und Umsetzung diverser Fachspezifikationen
+    - Erstellung Datenmodell
+    - Entwicklung und Umsetzung ETL Routinen
+    - Optimierung der Ladeprozesse
+    - Coaching
+    - Projektunterstützung
+    - Unterstützung bei der Migration der Datenbank und des Oracle Warehouse Builders von der Version 11gR1 auf die Version 11gR2
+    - Unterstützung bei der Migration von OBIEE von Version 10 auf Version 11
+    - "DV-Umgebung: Oracle RDBMS 11gR1 und 11gR2, Oracle Warehouse Builder 11gR1 und 11gR2, Oracle BI EE, SQL, PL/SQL"
+- company:
+    name: Dialer Warehouse Erstellung
+    location: München, Bank
+    overview: Als Projektleiter für die Dialer Warehouse Erstellung bei einer Bank habe ich ein erfahrenes Team geleitet und die erfolgreiche Umsetzung des Projekts sichergestellt. Dabei habe ich eng mit internen Stakeholdern zusammengearbeitet und das Projektbudget und den Zeitplan effektiv verwaltet.
+  positions:
+  - designation: Projektleitung
+    start: 10/2013
+    end: 04/2014
+    responsibilities:
+    - Aufbau eines DWH auf Basis des Cisco Dialers
+    - Erstellung des Datenmodells
+    - Entwicklung der ETL Routinen
+    - Entwicklung des OBIEE Repositories
+    - Dokumentation und Schulung des Teams
+    - "DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SQL, PL/SQL"
+- company:
+    name: Datenbank und OWB Migration
+    location: München, Öffentliche Verwaltung
+    overview: Als Projektleiter für die Datenbank- und OWB-Migration in der öffentlichen Verwaltung habe ich ein erfahrenes Team geleitet und die erfolgreiche Umsetzung des Projekts sichergestellt. Dabei habe ich eng mit internen und externen Stakeholdern zusammengearbeitet und das Projektbudget und den Zeitplan effektiv verwaltet.
+  positions:
+  - designation: Projektleitung
+    start: 08/2012
+    end: 12/2012
+    responsibilities:
+    - Migration von mehreren Datenbanken und OWB Repositories von der Version 10gR2 auf die Version 11gR2
+    - "DV-Umgebung: Oracle RDBMS 10gR2 und 11gR2, Oracle Warehouse Builder 10gR2 und 11gR2, SVN, SQL, PL/SQL"
+- company:
+    name: Unterstützung bei der Erstellung eines Warehouses auf Atlassian JIRA
+    location: München, Bank
+    overview: Als Projektleiter für die Unterstützung bei der Erstellung eines Warehouses auf Atlassian JIRA bei einer Bank habe ich ein erfahrenes Team geleitet und eng mit internen Stakeholdern zusammengearbeitet, um die Anforderungen der Bank zu erfüllen. Dabei habe ich den Projektfortschritt und das Budget effektiv verwaltet und das Projekt erfolgreich abgeschlossen.
+  positions:
+  - designation: Projektleitung
+    start: 12/2010
+    end: 07/2012
+    responsibilities:
+    - Aufbau eines neuen kompletten DWH’s für Attlassian JIRA
+    - Review Fachspezifikationen
+    - Erstellung Datenmodell
+    - Entwicklung und Umsetzung ETL Routinen
+    - Erstellung OBIEE Metadatenkatalog
+    - Erstellung OBIEE Berichte
+    - Entwicklung OBIEE Dashboard
+    - Dokumentation
+    - Schulung
+    - Coaching
+    - Projektunterstützung
+    - "DV-Umgebung: Oracle RDBMS 11gR1 und 11gR2, Oracle Warehouse Builder 11gR1 und 11gR2, Oracle BI EE 10 und 11, SQL, PL/SQL, Atlassian Jira 4"

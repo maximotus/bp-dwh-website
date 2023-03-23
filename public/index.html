@@ -1,416 +1,3321 @@
 <!DOCTYPE html>
-<style>
-    html {
-        height: 100vh;
-    }
-    body {
-        min-height: 100vh;
-        display: grid;
-        grid-template-rows: 1fr auto;
-    }
-    .footer {
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-</style>
-<html lang="en-us"><head>
-  <meta charset="utf-8">
-  <title>Bert Pollack Data Warehousing</title>
+<html lang="de">
+  <head>
+	<meta name="generator" content="Hugo 0.111.3">
+    <title>Bert Pollack</title>
+    
+    
+      
+      
+        
+      
+    
+    <meta name="description" content="Bert Pollack – Data Warehouse Spezialist aus München, Deutschland." />
+    
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/application.650f674fc19266f4ea6c7b54bb6a4ffad10dfa641e3bea6de0a8472a99807590.css" integrity="sha256-ZQ9nT8GSZvTqbHtUu2pP&#43;tEN&#43;mQeO&#43;pt4KhHKpmAdZA=" />
 
-  <meta name="description" property="og:description" content="Bert Pollack unterstützt als Spezialist für Data Warehousing, BI Systeme und Oracle Technologien diverse Kunden in verschiedenen Branchen.">
-  <meta name="image" property="og:image" content="/">
-  <meta name="author" content="Bert Pollack">
-  <meta name="generator" content="Hugo 0.110.0">
 
-  <!-- plugins -->
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+
+
+
   
 
-  <!-- Main Stylesheet -->
   
-  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
   
-  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+  
+    
+  
+  
 
-  <link rel="alternate" type="application/rss+xml" href="http://bp-dwh.de/index.xml" title="Bert Pollack Data Warehousing" />
-<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu1b14172700bb32feec9d7ba4bc708aa0_18827_42x0_resize_box_3.png" />
 
-  <!--Favicon-->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+
+
+
+
+
+
+
+<meta property="og:title" content="Bert Pollack – Data Warehouse Spezialist aus München, Deutschland."/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Portfolio Website des Freiberuflers Bert Pollack aus München, Deutschland."/>
+<meta property="og:image" content="/images/author/profile.jpg">
+<meta property="og:url" content="https://hugo-toha.github.io">
+
+
+    
+
+
+
 
 </head>
-<body class="">
-    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
-        <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav uk-visible@s">
-                
-                
-                <li><a href="/en"><img class="uk-active" style="width: 18px; height: 18px;" src="" alt="LinkedIn" loading="lazy"></a></li>
-                
-                
-                
-                <li class="uk-active "><a style="font-size: 18px; text-transform: none"
-                        href="http://bp-dwh.de/"> Home </a></li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <li><a style="font-size: 18px; text-transform: none" href="/about">Über mich</a></li>
-                
-                
-            </ul>
+  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
-            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+    
 
-        </div>
-    </nav>
-</div>
 
-<div id="sidenav" uk-offcanvas="overlay: true">
-    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
-        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            
-            <li class="uk-active"><a style="font-size: 18px" href="http://bp-dwh.de/"> Home </a>
-            </li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li><a style="font-size: 18px" href="/about">Über mich</a></li>
-            
-            
-        </ul>
 
-    </div>
-</div>
 
 
-<!-- Hexagon Stylesheet -->
 
-<link rel="stylesheet" href="/css/hexagon.min.css">
 
-<!-- Index -->
 
-<link rel="stylesheet" href="/css/index.min.css">
 
-<section>
-    <div class="uk-container uk-margin-xlarge-top uk-margin-xlarge-bottom">
 
-        <h1 class="uk-heading-large">Bert Pollack – Data Warehouse Spezialist</h1>
-    </div>
 
 
-</section>
+  
 
-<div class="uk-text-center uk-margin-xlarge-bottom uk-margin-xlarge-top">
-    <ul id="links" class="icons">
-        
-        <li><a href="https://www.linkedin.com/in/bert-pollack-738a9b129">
-            <img class="contain" src="logos/linkedin-icon.svg" alt="LinkedIn" loading="lazy"> </a></li>
-         
-        <li><a href="https://www.xing.com/profile/Bert_Pollack/cv"> <img
-                    class="contain" src="logos/xing-icon.svg" alt="Xing" loading="lazy"></a></li>
-          
-        <li><a href="#ZgotmplZ"> <img
-                    class="contain" src="logos/signal-icon.png" alt="Signal" loading="lazy"></a></li>
-        
-    </ul>
 
+  
 
-</div>
 
 
 
+  
+  
+    
+  
+  
 
 
-<section class="uk-margin-large-top">
-    <div class="uk-container">
-        <div class="uk-text-center">
-            
-            <p class="uk-text-lead">Seit 1999 unterstütze ich diverse Kunden in den verschiedensten Branchen BI Systeme auf Basis der Oracle Technologie zu implementieren.</p>
-            
-            <a class="uk-button uk-button-text" href="http://bp-dwh.de/about">Weitere Informationen</a>
-            
-            
-        </div>
-    </div>
 
-</section>
+  
+  
+    
+  
+  
 
 
 
 
+  
 
 
 
 
+  
 
 
+<nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/main-logo_hu1b14172700bb32feec9d7ba4bc708aa0_18827_42x0_resize_box_3.png" id="logo" alt="Logo">
+      Bert Pollack</a>
+    <button
+      class="navbar-toggler navbar-dark"
+      id="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-
-
-
-
-
-<div id="modal_JavaScript" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">JavaScript</h2>
-        </div>
-        <p>Details coming soon, contact me if you want to know more</p>
-    </div>
-</div>
-
-
-<section class="uk-margin-large-top uk-margin-large-bottom">
-    <div class="uk-container">
-        <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Skills</span></h1>
-
-        <p class="uk-text-center uk-text-lead"><i>Click the images below to find out more</i></p>
-        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
-            uk-grid>
-            
-            <div class="imagemargin">
-                <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg" alt="" loading="lazy" style="cursor: pointer"
-                    uk-toggle="target: #modal_JavaScript">
-                <h4>JavaScript</h4>
-            </div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="uk-margin-large-bottom">
-    <div class="uk-container">
-        <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
-
-        <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-center" uk-grid
-            style="padding-left: 20px; padding-right: 20px">
-
-            
-            <div>
-                <div class="uk-card uk-card-default uk-height-large">
-                    <div class="uk-card-media-top">
-                        <img class="contain experience" src="https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg" alt="" style="padding: 20px" loading="lazy">
-                    </div>
-                    <div class="uk-card-body" style="padding: initial">
-                        <div style="height: 5em">
-                            <h3 class="uk-card-title uk-heading-small">init.g</h3>
-                        </div>
-                        <p style="height: 4em">Google</p>
-                        <p>November 2019</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="uk-margin-large-top uk-margin-medium-bottom">
-    <div class="uk-container">
-        <h1 class="uk-heading-line  uk-heading-medium"><span>Certifications</span></h1>
-
-        <p class="uk-text-center uk-text-lead"><i>Click the images below to view the proof</i></p>
-        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
-             uk-grid >
-            
-            <a href="https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url" class="imagemargin">
-                <img class="contain certs" src="https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg" alt="Microsoft Azure Fundamentals" loading="lazy" style="cursor: pointer">
-                Microsoft Azure Fundamentals
-            </a>
-
-            
-        </div>
-
-    </div>
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="uk-margin-large-bottom">
-    <div class="uk-container">
-        <h1 class="uk-heading-line uk-heading-medium "><span>Hackathons</span></h1>
-    </div>
-    <p class="uk-text-center uk-text-lead"><i>Hover over the logos to find out more</i></p>
-</section>
-<div class="uk-container uk-margin-large-bottom uk-text-center">
-    <ul id="hexGrid">
-        
-        <li class="hex">
-            <div class="hexIn">
-                <div class="hexLink">
-                    <img src="https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png" alt="Hack Cambridge 2019" loading="lazy" />
-                    
-                    <div style="all:unset">
-
-                        <h1>
-                            Hack Cambridge 2019</h1>
-                    </div>
-                    
-                    
-                    <div style="all:unset">
-                        <p>
-                            Climate change simulator</p>
-                    </div>
-                    
-                </div>
-            </div>
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
         </li>
         
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Über mich</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Kenntnisse</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#experiences">Erfahrung</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">Werdegang</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects">Kunden</a>
+                </li>
+              
+            
+            
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#achievements">Schwerpunkte &amp; Erfolge</a>
+                </li>
+              
+            
+          
+        
+        
+          <div class="dropdown-divider" id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts/">Beiträge</a>
+          </li>
+        
+        
+        
+            
+        
+            
+        
+        
+        
+          <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/main-logo_hu1b14172700bb32feec9d7ba4bc708aa0_18827_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/main-logo_hu1b14172700bb32feec9d7ba4bc708aa0_18827_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid home" id="home">
+  <style>
+     
+    #homePageBackgroundImageDivStyled {
+      background-image: url('/images/site/background_huc27851e5bdcd21ff2b80664732e9f41e_2962733_500x0_resize_q75_box.jpg');
+    }
+     
+    @media (min-width: 500px) and (max-width: 800px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_huc27851e5bdcd21ff2b80664732e9f41e_2962733_800x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 801px) and (max-width: 1200px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_huc27851e5bdcd21ff2b80664732e9f41e_2962733_1200x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 1201px) and (max-width: 1500px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_huc27851e5bdcd21ff2b80664732e9f41e_2962733_1500x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 1501px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background.jpg');
+        }
+    }
+    </style>
+    <span class="on-the-fly-behavior"></span>
+  <div
+    id="homePageBackgroundImageDivStyled"
+    class="background container-fluid"
+  ></div>
+  <div class="container content text-center">
+    <img src="/images/author/profile_hub7bb4298f58d8560df55e9f30f62c812_13028_148x148_fit_q75_box.jpg"
+      class="rounded-circle mx-auto d-block img-fluid"
+      alt="Author Image"
+    />
+    <h1 class="greeting">  Bert Pollack</h1>
+    
+    <div class="typing-carousel">
+      <span id="ityped" class="ityped"></span>
+      <span class="ityped-cursor"></span>
+    </div>
+    <ul id="typing-carousel-data">
+      
+        
+          <li>Beratung</li>
+        
+          <li>Unterstützung bei der Implementierung von BI Systemen</li>
+        
+          <li>Coaching</li>
+        
+          <li>Projektleitung</li>
+        
+      
     </ul>
+    
+      
+        
+        
+          
+        
+        <a href="#about" class="arrow-center" aria-label="Lesen Mehr - Bert Pollack"><i class="arrow bounce fa fa-chevron-down"></i></a>
+      
+    
+  </div>
+</div>
+
+    
+    
+      
+    
+
+    
+      
+      
+        
+          <div class="container-fluid section-holder d-flex bg-white">
+            
+
+  
+
+
+
+
+  
+
+
+<div class="container anchor p-lg-5 about-section" id="about">
+  <div class="row pt-sm-2 pt-md-4 align-self-center">
+    
+    
+     <div class="col-sm-6"> 
+      <h3 class="p-1">Bert Pollack</h3>
+      
+      <h5 class="p-1">
+        Freiberuflicher Data Warehouse Spezialist
+        
+      </h5>
+      
+      <p class="p-1 text-justify">
+        Seit 1999 unterstütze ich diverse Kunden in den verschiedensten Branchen BI Systeme auf Basis der Oracle Technologie zu implementieren. Anfangs noch als Angestellter von Oracle, wenig später dann als Freiberufler. Das Spektrum geht dabei von der anfänglichen Definition, was will ich, über die Modellierung, die Integration mittels ETL/ELT, die technische Implementierung, die Dokumentation bis hin zur Einweisung des Kunden in die zur Verfügung gestellte Plattform für Analysen. Als Coach unterstütze ich dabei zusätzlich jederzeit für alle Fragestellungen rund um das Projekt. Mein Spektrum an Diensten umfasst dabei die Bereiche <strong>Beratung</strong>, <strong>Coaching</strong>, <strong>Projektleitung</strong> und die <strong>Unterstützung bei der Implementierung von BI Systemen</strong>.
+      </p>
+      <div class="text-container ml-auto">
+        <ul class="social-link d-flex">
+          
+          <li>
+            
+              <a href="mailto:bert.pollack@bp-dwh.de" title="Email" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="#ZgotmplZ" title="Phone" target="_blank" rel="noopener"><i class="fas fa-phone-flip"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://www.linkedin.com/in/bert-pollack-738a9b129" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://www.xing.com/profile/Bert_Pollack/cv" title="Xing" target="_blank" rel="noopener"><i class="fab fa-xing"></i></a>
+            
+          </li>
+          
+        </ul>
+      </div>
+      
+      
+      <a href="https://www.bp-dwh.de/downloads/profil/Pollack_Bert_BI-DWH.pdf" title="Profil / Lebenslauf PDF" target="#"
+        ><button class="btn btn-dark">Profil / Lebenslauf PDF</button></a
+      >
+      
+    </div>
+    
+    <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
+      <div class="row">
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+        
+    
+    <div class="circular-progress ">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-95"
+        
+            style="border-color: #D6CADD;"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar"
+        
+            style="border-color: #D6CADD;"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Oracle Database</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+        
+    
+    <div class="circular-progress ">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-95"
+        
+            style="border-color: #FBD0C9;"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar"
+        
+            style="border-color: #FBD0C9;"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">BI</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+        
+    
+    <div class="circular-progress ">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-95"
+        
+            style="border-color: #C7E6D7;"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar"
+        
+            style="border-color: #C7E6D7;"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">DWH</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+        
+    
+    <div class="circular-progress ">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-95"
+        
+            style="border-color: #FFF1B5;"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar"
+        
+            style="border-color: #FFF1B5;"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Daten-Modellierung</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+        
+    
+    <div class="circular-progress ">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-95"
+        
+            style="border-color: #A2D2E8;"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar"
+        
+            style="border-color: #A2D2E8;"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">ETL</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+        
+    
+    <div class="circular-progress ">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-95"
+        
+            style="border-color: #E8D6B9;"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar"
+        
+            style="border-color: #E8D6B9;"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Projektleitung</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+        
+    
+    <div class="circular-progress ">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-95"
+        
+            style="border-color: #F8D7DA;"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar"
+        
+            style="border-color: #F8D7DA;"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Coaching</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+        
+    
+    <div class="circular-progress ">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-95"
+        
+            style="border-color: #7FD1C6;"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar"
+        
+            style="border-color: #7FD1C6;"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Beratung</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+        
+    
+    <div class="circular-progress ">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-95"
+        
+            style="border-color: #E3C3D3;"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar"
+        
+            style="border-color: #E3C3D3;"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Architektur</div>
+    </div>
+
+</div>
+
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-dimmed">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 skills-section">
+  
+    <h1 class="text-center">
+        <span id="skills"></span>Kenntnisse</h1>
+  
+  <div class="container d-flex-block">
+    <div class="row" id="primary-skills">
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="#ZgotmplZ" title="Oracle Produkte" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/oracle.svg" alt="Oracle Produkte" />
+          <h5 class="card-title">Oracle Produkte</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">Oracle RDBMS (Sun Solaris, HP UX, Windows), Oracle Designer/2000 V2, Oracle Warehouse Builder, Oracle Data Integrator, Oracle Workflow, Oracle Business Intelligence Standard Edition, Oracle Business Intelligence Enterprise Edition, Oracle WebDB, Oracle Discoverer, Oracle Reports, Oracle SQL Developer, Oracle Data Modeler, Oracle Application Server, Oracle Internet Application Server, Oracle Application Express (Apex), Oracle Balanced Scorecard, SQL*Loader, T.O.A.D, SQL-Navigator, PL/SQL Developer, Oracle SQL Developer, Oracle Data Modeler</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.sap.com/germany/products.html" title="SAP Produkte" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/sap.svg" alt="SAP Produkte" />
+          <h5 class="card-title">SAP Produkte</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">SAP BusinessObjects Edge, SAP BusinessObjects Crystel Reports 2008, Sybase Power Designer. SAP BusinessObjects ist eine Business Intelligence-Plattform, die eine umfassende Sicht auf Geschäftsdaten bietet. Sie ermöglicht die Erstellung von Berichten, Analysen und Dashboards. Als BI-Experte unterstütze ich Sie gerne bei der Implementierung und Optimierung von SAP BusinessObjects.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://support.sas.com/en/software/enterprise-guide-support.html" title="SAS Produkte" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/sas.svg" alt="SAS Produkte" />
+          <h5 class="card-title">SAS Produkte</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">SAS Enterprise Guide &amp; SAS Visual Analytics. SAS Enterprise Guide ist eine benutzerfreundliche Business-Intelligence-Software, während SAS Visual Analytics leistungsstarke Visualisierungsfunktionen bietet. Beide Plattformen ermöglichen es Benutzern, Daten einfach zu verwalten und zu analysieren. Als BI-Experte unterstütze ich Sie gerne bei der Anwendung und Optimierung von SAS Enterprise Guide und SAS Visual Analytics.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.microsoft.com/de-de/microsoft-365/excel" title="Microsoft Produkte" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/microsoft.svg" alt="Microsoft Produkte" />
+          <h5 class="card-title">Microsoft Produkte</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">Microsoft Access, Microsoft Excel, Visual Basic Programmierung. Excel bietet mit Visual Basic Programming eine flexible und benutzerdefinierte Programmierumgebung. Mit VBA können Makros und Anwendungen erstellt werden, um Excel-Funktionen zu erweitern. Als Datenanalyse-Experte unterstütze ich Sie gerne bei der Anwendung und Optimierung von Excel und Visual Basic Programming.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.ibm.com/de-de/products/cognos-analytics" title="IBM Cognos Business Intelligence" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/ibm.svg" alt="IBM Cognos Business Intelligence" />
+          <h5 class="card-title">IBM Cognos Business Intelligence</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">IBM Cognos BI ist eine umfassende Business Intelligence-Plattform, die Analysen, Berichterstellung und Dashboards bietet. Sie ist benutzerfreundlich und ermöglicht schnelle Einblicke in komplexe Daten. Als BI-Experte unterstütze ich Sie gerne bei der Implementierung und Optimierung von IBM Cognos BI.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.ibm.com/de-de/products/spss-statistics" title="PASW Statistics 17" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/spss-an-ibm-company-logo.svg" alt="PASW Statistics 17" />
+          <h5 class="card-title">PASW Statistics 17</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">PASW Statistics (ehemals SPSS) ist eine leistungsstarke Statistiksoftware, die bei der Datenauswertung und -analyse hilft. Sie bietet umfassende statistische Methoden und Visualisierungen. Als Statistikexperte unterstütze ich Sie gerne bei der Anwendung und Optimierung von PASW Statistics.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.panorat.io/" title="Panoratio" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/panoratio.svg" alt="Panoratio" />
+          <h5 class="card-title">Panoratio</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">PDI-Explorer &amp; PDI-Configurator. Der Panoratio PDI Explorer ist eine benutzerfreundliche BI-Plattform, die komplexe Datenmodelle visualisiert und wertvolle Erkenntnisse durch die Aufdeckung von Zusammenhängen bietet. Gerne unterstütze ich Sie als erfahrener BI-Experte bei der Integration und Anwendung von PDI Explorer.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.talend.com/de/products/talend-open-studio/" title="Talend Open Studio" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/talend.svg" alt="Talend Open Studio" />
+          <h5 class="card-title">Talend Open Studio</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">Talend Open Studio ist eine Open-Source-Integrationsplattform, die es Unternehmen ermöglicht, Daten aus verschiedenen Quellen zu sammeln, zu transformieren und zu laden. Sie bietet eine benutzerfreundliche Schnittstelle und ist für komplexe Datentransformationen geeignet. Als Datenintegrations-Experte unterstütze ich Sie gerne bei der Anwendung und Optimierung von Talend Open Studio.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.opentext.com/products/gupta-sqlbase" title="Gupta RDBMS" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          <h5 class="card-title">Gupta RDBMS</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">Gupta RDBMS ist eine relationale Datenbank, die sich durch ihre hohe Performance und Skalierbarkeit auszeichnet. Sie wird oft für anspruchsvolle Unternehmensanwendungen und Echtzeitverarbeitung verwendet. Als Datenbankexperte kann ich Ihnen bei der Integration und Verwaltung von Gupta RDBMS helfen.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.mongodb.com/de-de" title="MongoDB" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/mongo_db.svg" alt="MongoDB" />
+          <h5 class="card-title">MongoDB</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">MongoDB ist eine flexible, skalierbare NoSQL-Datenbank zur Speicherung unstrukturierter Daten in Echtzeit. Ideal für datenintensive Anwendungen wie IoT oder Mobile-Apps, lässt sich MongoDB nahtlos in Ihre Dateninfrastruktur integrieren. Als Experte stehe ich Ihnen bei der Verwaltung zur Seite.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.mysql.com/de/" title="MySQL" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/mysql.svg" alt="MySQL" />
+          <h5 class="card-title">MySQL</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">MySQL ist eine Open-Source-Relationale Datenbank mit hoher Geschwindigkeit und Zuverlässigkeit. Es ist eine häufig verwendete Datenbank für Webanwendungen und bietet Sicherheit, Skalierbarkeit und Hochverfügbarkeit. Als Datenbankexperte unterstütze ich Sie gerne bei der Verwaltung und Optimierung Ihrer MySQL-Datenbanken.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.atlassian.com/de/software/jira" title="Atlassian Jira" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/jira.svg" alt="Atlassian Jira" />
+          <h5 class="card-title">Atlassian Jira</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">Jira ist eine leistungsstarke Projektmanagement-Software, die es Unternehmen ermöglicht, Aufgaben, Projekte und Probleme effektiv zu verwalten. Es bietet eine intuitive Benutzeroberfläche und eine Vielzahl von Funktionen für agile Arbeitsabläufe. Als Projektmanagement-Experte unterstütze ich Sie gerne bei der Anwendung und Optimierung von Jira.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://de.wikipedia.org/wiki/Programmiersprache" title="Programmiersprachen" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          <h5 class="card-title">Programmiersprachen</h5>
+        
+      </div>
+      <div class="card-body">
+        <p class="card-text">SQL, PL/SQL, Unix-Shellscripting, Visual Basic, VB-Scripting, DOS-Scripting, Turbo Pascal, DOS Batch-Programming, HTML, Java, XML, XSL. Mit diesem Wissen kann ich Daten effektiv verarbeiten und analysieren sowie leistungsstarke Anwendungen und Skripte erstellen. Als Datenanalyse-Experte kann ich Sie bei verschiedenen Projekten unterstützen.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-white">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 experiences-section">
+  
+    <h1 class="text-center">
+        <span id="experiences"></span>Erfahrung</h1>
+  
+
+  <div class="container timeline text-justify">
+   
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">1</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Teammitglied</h5>
+        <h6>Implementierung von ETL Prozessen, Oracle Support</h6>
+        
+        <p class="text-muted">05/2020 - heute,
+            München, Versicherung
+        </p>
+    </div>
+    
+    <p>Als Teammitglied in einem Projekt bei einer Versicherung mit Schwerpunkt ETL-Prozesse und Oracle-Support, arbeitet man engagiert an der Integration von Daten, gewährleistet eine reibungslose Funktion von Systemen und bietet effektive Lösungen für Geschäftsprobleme.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Erstellung von ETL Prozessen für die Beladung der MongoDB</li>
+    
+        <li>Erstellung komplexer fachlicher Views</li>
+    
+        <li>Oracle Unterstützung hinsichtlich Performance und Fehler</li>
+    
+        <li>Housekeeping</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 18c , MongoDB 3.x, Talend Open Studio 5.x, 7.x, SQL, PL/SQL</li>
+    
+    </ul>
+    
 </div>
 
 
 
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
 
-
-
-<section class="uk-margin-xlarge-bottom">
-    <div class="uk-container">
-
-        <h1 class="uk-heading-line uk-heading-medium  uk-margin-large-bottom"><span>Education</span></h1>
-
-
-        <div class=" uk-grid-large uk-child-width-1-3@s uk-child-width-1  uk-text-center uk-flex-center" uk-grid
-            style="padding-left: 20px; padding-right: 20px">
-
-            
-            <div>
-                <div class="uk-card uk-card-default uk-height-max-large">
-                    <div class="uk-card-media-top">
-                        <img class="contain experience" src="https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg" alt="" style="padding: 20px" loading="lazy">
-                    </div>
-                    <div class="uk-card-body" style="padding-top: 0">
-                        <div style="height: 5em">
-                            <h3 class="uk-card-title">Durham University</h3>
-                        </div>
-                        <p style="height: 4em">BSc Computer Science</p>
-                        <p>2018 - Present</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Projektleitung &amp; Teammitglied</h5>
+        <h6>Implementierung von Datamarts, Erstellung von Dashboards</h6>
+        
+        <p class="text-muted">02/2020 - 12/2020,
+            München, Öffentliche Hand
+        </p>
     </div>
+    
+    <p>Als Projektleiter und Teammitglied bei einem Projekt in öffentlicher Hand mit Schwerpunkt Implementierung von Datamarts und Erstellung von Dashboards, ist man verantwortlich für die effiziente Durchführung des Projekts, die Gewährleistung der Datenintegrität und die Bereitstellung von aussagekräftigen Informationen für Entscheidungsträger.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Datenmodellierung der Datamarts</li>
+    
+        <li>ETL Prozesse erstellen</li>
+    
+        <li>Automatisierung implementieren</li>
+    
+        <li>OBIEE Repository</li>
+    
+        <li>Dashboard- und Reporterstellung</li>
+    
+        <li>Performanceunterstützung</li>
+    
+        <li>allgemeine Projektunterstützung</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 12c , Oracle Data Integrator 12c, Oracle BI EE 12, SQL, PL/SQL</li>
+    
+    </ul>
+    
+</div>
 
 
 
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">2</div>
+</div>
 
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
 
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">3</div>
+</div>
 
-
-
-</section>
-
-
-
-
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Teammitglied</h5>
+        <h6>OWB Ablösung, Oracle Performancesupport, Optimierungen</h6>
+        
+        <p class="text-muted">07/2019 - heute,
+            München, Industrie
+        </p>
     </div>
-<footer class="footer">
-  <div class="uk-container">
+    
+    <p>Bei der OWB-Ablösung, Oracle Performancesupport und Optimierungen in der Industrie, arbeitet man daran, die ETL-Prozesse zu verbessern, um eine effiziente Datenintegration zu ermöglichen. Durch Oracle Performancesupport wird die Leistung optimiert und in der Industrie werden betriebliche Abläufe rationalisiert und automatisiert, um Produktivität und Rentabilität zu steigern.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Ablösung vorhandener OWB Mappings durch PL/SQL</li>
+    
+        <li>Performanceunterstützung</li>
+    
+        <li>allgemeine Oracle Unterstützung</li>
+    
+        <li>Housekeeping</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 12c, Oracle Warehouse Builder 11gR2, Oracle Apex, SQL, PL/SQL</li>
+    
+    </ul>
+    
+</div>
 
-    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
-      <div class="uk-margin-small-bottom">
-        <h5 class="uk-margin-small-bottom">Email</h5>
-        <a href="mailto:info@bp-dwh.de">info@bp-dwh.de</a>
 
-      </div>
-      <div>
-        <h5 class="uk-margin-small-bottom">Address</h5>
-          <div uk-lightbox>
-            <a href="https://www.openstreetmap.org/node/2674983025" data-caption="Geyerspergerstraße 44, 80689 München"
-               data-type="iframe">Geyerspergerstraße 44, 80689 München</a>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Teammitglied</h5>
+        <h6>Performanceunterstützung</h6>
+        
+        <p class="text-muted">04/2019 - 07/2020,
+            München, Finanzdienstleister
+        </p>
+    </div>
+    
+    <p>Die Performanzunterstützung bei einem Finanzdienstleister umfasst die Analyse und Optimierung von Geschäftsprozessen, um eine höhere Effizienz und Rentabilität zu erreichen. Durch den Einsatz von Oracle-Technologien werden kritische Systeme überwacht und Leistungsprobleme gelöst, um eine unterbrechungsfreie Verfügbarkeit von Diensten sicherzustellen.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Optimierung der Datenbank und der Abfragen hinsichtlich Performanceoptimierung der Applikation</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 12c, BMC Remedy</li>
+    
+    </ul>
+    
+</div>
+
+
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">4</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">5</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Teammitglied</h5>
+        <h6>Implementierung von Datamarts</h6>
+        
+        <p class="text-muted">06/2018 - 12/2020,
+            München, Bank
+        </p>
+    </div>
+    
+    <p>Die Implementierung von Datamarts bei einer Bank umfasst die Schaffung einer zentralen Datenbank für eine bessere Datenintegration und -analyse. Datamarts ermöglichen eine effektive Verwaltung von Kundendaten und eine bessere Entscheidungsfindung durch präzise Berichte und Analysen. Der Einsatz von Oracle-Technologien gewährleistet eine reibungslose Integration und einen schnellen Datenzugriff.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Implementierung von Datamarts für die Bereiche Finanzen, Vertrieb und Risiko</li>
+    
+        <li>Unterstützung bei Reporten</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SAS Enterprise Guide, SAS Visual Analytics, SQL, PL/SQL, SVN</li>
+    
+    </ul>
+    
+</div>
+
+
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Teammitglied</h5>
+        <h6>Performanceunterstützung</h6>
+        
+        <p class="text-muted">09/2017 - 08/2018,
+            München, Pharma
+        </p>
+    </div>
+    
+    <p>Die Performanzunterstützung bei einem Pharmaunternehmen umfasst die Überwachung und Optimierung der kritischen Geschäftsprozesse, um eine reibungslose Produktion und Lieferung von Arzneimitteln zu gewährleisten. Oracle-Technologien werden eingesetzt, um Datenanalysen durchzuführen und Leistungsprobleme in Echtzeit zu beheben, um eine höhere Effizienz und Produktivität zu erzielen.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Performanceoptimierungen und -unterstützungen beim near real time load and reporting</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 12c, Oracle Warehouse Builder 11gR2, IBM Cognos Business Intelligence, SQL, PL/SQL</li>
+    
+    </ul>
+    
+</div>
+
+
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">6</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">7</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Teammitglied</h5>
+        <h6>Gemini Projektunterstützung</h6>
+        
+        <p class="text-muted">01/2017 - 08/2017,
+            München, Bank
+        </p>
+    </div>
+    
+    <p>Die Gemini-Projektunterstützung bei einer Bank bietet eine umfassende Palette von Dienstleistungen, die auf die Anforderungen des Kunden zugeschnitten sind. Dazu gehören Projektmanagement, Anforderungsanalyse, Datenmigration, technische Unterstützung und Schulungen. Gemini-Experten arbeiten eng mit dem Kunden zusammen, um eine erfolgreiche Umsetzung von Projekten sicherzustellen.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Anpassungen im Datenmodell, in den ETL Routinen sowie im OBIEE Reporting aufgrund der Beendigung des Joint Venture</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SAS Enterprise Guide, SQL, PL/SQL, SVN</li>
+    
+    </ul>
+    
+</div>
+
+
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Teammitglied</h5>
+        <h6>Einführung eines neuen Kartenproduktes: Umsetzung der Reportingmöglichkeiten</h6>
+        
+        <p class="text-muted">12/2016 - 06/2018,
+            München, Bank
+        </p>
+    </div>
+    
+    <p>Die Umsetzung von Reportingmöglichkeiten bei der Einführung eines neuen Kartenprodukts einer Bank beinhaltet die Schaffung von aussagekräftigen Berichten und Dashboards, um die Performance des Produkts zu überwachen und mögliche Verbesserungen zu identifizieren. Durch den Einsatz von Oracle-Technologien werden wichtige Daten aus verschiedenen Quellen integriert und visualisiert, um eine bessere Entscheidungsfindung zu ermöglichen.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Implementierung des neuen Kartenproduktes NCP in das Data Warehouse: Datenmodell, ETL und OBIEE Anpassungen sowie Erstellung von Reporten, Anpassung von Provisions- und Gutschriftenprozessen</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SQL, PL/SQL, SVN</li>
+    
+    </ul>
+    
+</div>
+
+
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">8</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">9</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Teammitglied</h5>
+        <h6>Implementierungen aufgrund regulatorischer Anforderungen und Umsetzung eines analytischen Reportings für die Partner</h6>
+        
+        <p class="text-muted">01/2016 - 01/2017,
+            München, Bank
+        </p>
+    </div>
+    
+    <p>Die Implementierung aufgrund regulatorischer Anforderungen und Umsetzung eines analytischen Reportings für die Partner bei einer Bank beinhaltet die Einhaltung der Anforderungen von Aufsichtsbehörden und die Erstellung von Berichten, um den Partnern Transparenz und Einblick in ihre Aktivitäten zu geben. Oracle-Technologien werden eingesetzt, um eine nahtlose Integration von Daten aus verschiedenen Quellen zu gewährleisten und die Erstellung von Berichten zu automatisieren, um Zeit und Ressourcen zu sparen.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Befüllung BAIS Schnittstelle</li>
+    
+        <li>Erstellung des analytischen Reportings für die Partner sowie Modellierung des notwendigen Datenmodells und dessen Befüllung</li>
+    
+        <li>Unterstützung bei der Implementierung des Financial Reporting (FinRep)</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 11gR2, Oracle Data Integrator, Oracle BI EE, SAS Enterprise Guide, SQL, PL/SQL</li>
+    
+    </ul>
+    
+</div>
+
+
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Teilprojektleitung &amp; Teammitglied</h5>
+        <h6>Anpassungen und Ergänzungen im Data Warehouse</h6>
+        
+        <p class="text-muted">04/2015 - 12/2015,
+            München, Bank
+        </p>
+    </div>
+    
+    <p>Als Teilprojektleiter im Bereich der Data Warehouse-Anpassungen und -Ergänzungen bei einer Bank habe ich erfolgreich die Projektplanung koordiniert, das Projektteam geleitet und die Umsetzung der Anforderungen der Bank effektiv umgesetzt.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Erweiterung der Rückstandsklassen</li>
+    
+        <li>Anpassung des Monatsprovisionsreportings</li>
+    
+        <li>Implementierung eines X-Sell Data Marts</li>
+    
+        <li>Reorganisation des VIP Reportings</li>
+    
+        <li>Implementierung eines neuen Kundenschlüssels</li>
+    
+        <li>Implementierung der Daily Extraction im Data Warehouse</li>
+    
+        <li>Erweiterung der CAM Produkte</li>
+    
+        <li>Erweiterungen bei der Dept. Consolidation</li>
+    
+        <li>Unterstützung bei der Umsetzung des New Banking Frontends und der Pricing Engine</li>
+    
+        <li>Anpassung der EWB KoeffizientUmsetzung der automated DMA Increaseen</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SQL, PL/SQL</li>
+    
+    </ul>
+    
+</div>
+
+
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">10</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">11</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Projektleitung &amp; Teilprojektleitung &amp; Architekt &amp; Entwickler &amp; Teammitglied</h5>
+        <h6>Implementierung operativer Prozesse im Data Warehouse</h6>
+        
+        <p class="text-muted">01/2014 - 04/2015,
+            München, Bank (E-Commerce)
+        </p>
+    </div>
+    
+    <p>Als Projektleiter bei einer Bank im E-Commerce-Bereich habe ich erfolgreich operativen Prozesse im Data Warehouse implementiert. Dabei habe ich ein multidisziplinäres Team geleitet und eng mit anderen Abteilungen zusammengearbeitet, um sicherzustellen, dass die Ziele des Projekts erreicht wurden.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Umsetzung eines revisionssicheren Prozesses der Gutschriftenermittlung</li>
+    
+        <li>Qualitätsüberprüfung und revisionssichere Anpassung operativer Informationen</li>
+    
+        <li>Implementierung Eingabesysteme für die Fachbereiche</li>
+    
+        <li>Migration diverser Daten aus den Vorsystemen</li>
+    
+        <li>Implementierung eines Kundenschlüssels</li>
+    
+        <li>diverses operatives Reporting für die Bafin sowie Partner</li>
+    
+        <li>Implementierung von Provisionsberechnungen</li>
+    
+        <li>Implementierung des operativen Reportings für das Call Center</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 11gR2, Oracle Data Integrator, Oracle BI EE, SQL, PL/SQL</li>
+    
+    </ul>
+    
+</div>
+
+
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Projektleitung &amp; Teilprojektleitung &amp; Teammitglied</h5>
+        <h6>Data Warehouse Erstellung und Optimierung</h6>
+        
+        <p class="text-muted">11/2009 - 04/2015,
+            München, Bank
+        </p>
+    </div>
+    
+    <p>Als Projektleiter für die Data Warehouse Erstellung und Optimierung einer Bank war ich verantwortlich für die erfolgreiche Umsetzung des Projekts. Ich habe ein multidisziplinäres Team geleitet, um sicherzustellen, dass die Anforderungen der Bank erfüllt und das Projekt pünktlich und innerhalb des Budgets abgeschlossen wurde.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Aufbau DWH Vertriebsdatenbank für Konsumerkredite</li>
+    
+        <li>Aufbau Reportingsystem für externe Partner</li>
+    
+        <li>Integration der Transaktionen ins DWH</li>
+    
+        <li>Konvertierungsprozess</li>
+    
+        <li>Integration der Mahntransaktionen</li>
+    
+        <li>Definition, Review und Umsetzung diverser Fachspezifikationen</li>
+    
+        <li>Erstellung Datenmodell</li>
+    
+        <li>Entwicklung und Umsetzung ETL Routinen</li>
+    
+        <li>Optimierung der Ladeprozesse</li>
+    
+        <li>Coaching</li>
+    
+        <li>Projektunterstützung</li>
+    
+        <li>Unterstützung bei der Migration der Datenbank und des Oracle Warehouse Builders von der Version 11gR1 auf die Version 11gR2</li>
+    
+        <li>Unterstützung bei der Migration von OBIEE von Version 10 auf Version 11</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 11gR1 und 11gR2, Oracle Warehouse Builder 11gR1 und 11gR2, Oracle BI EE, SQL, PL/SQL</li>
+    
+    </ul>
+    
+</div>
+
+
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">12</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">13</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Projektleitung</h5>
+        <h6>Dialer Warehouse Erstellung</h6>
+        
+        <p class="text-muted">10/2013 - 04/2014,
+            München, Bank
+        </p>
+    </div>
+    
+    <p>Als Projektleiter für die Dialer Warehouse Erstellung bei einer Bank habe ich ein erfahrenes Team geleitet und die erfolgreiche Umsetzung des Projekts sichergestellt. Dabei habe ich eng mit internen Stakeholdern zusammengearbeitet und das Projektbudget und den Zeitplan effektiv verwaltet.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Aufbau eines DWH auf Basis des Cisco Dialers</li>
+    
+        <li>Erstellung des Datenmodells</li>
+    
+        <li>Entwicklung der ETL Routinen</li>
+    
+        <li>Entwicklung des OBIEE Repositories</li>
+    
+        <li>Dokumentation und Schulung des Teams</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 11gR2, Oracle Warehouse Builder 11gR2, Oracle BI EE, SQL, PL/SQL</li>
+    
+    </ul>
+    
+</div>
+
+
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Projektleitung</h5>
+        <h6>Datenbank und OWB Migration</h6>
+        
+        <p class="text-muted">08/2012 - 12/2012,
+            München, Öffentliche Verwaltung
+        </p>
+    </div>
+    
+    <p>Als Projektleiter für die Datenbank- und OWB-Migration in der öffentlichen Verwaltung habe ich ein erfahrenes Team geleitet und die erfolgreiche Umsetzung des Projekts sichergestellt. Dabei habe ich eng mit internen und externen Stakeholdern zusammengearbeitet und das Projektbudget und den Zeitplan effektiv verwaltet.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Migration von mehreren Datenbanken und OWB Repositories von der Version 10gR2 auf die Version 11gR2</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 10gR2 und 11gR2, Oracle Warehouse Builder 10gR2 und 11gR2, SVN, SQL, PL/SQL</li>
+    
+    </ul>
+    
+</div>
+
+
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">14</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">15</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Projektleitung</h5>
+        <h6>Unterstützung bei der Erstellung eines Warehouses auf Atlassian JIRA</h6>
+        
+        <p class="text-muted">12/2010 - 07/2012,
+            München, Bank
+        </p>
+    </div>
+    
+    <p>Als Projektleiter für die Unterstützung bei der Erstellung eines Warehouses auf Atlassian JIRA bei einer Bank habe ich ein erfahrenes Team geleitet und eng mit internen Stakeholdern zusammengearbeitet, um die Anforderungen der Bank zu erfüllen. Dabei habe ich den Projektfortschritt und das Budget effektiv verwaltet und das Projekt erfolgreich abgeschlossen.</p>
+    
+    
+    <h6 class="text-muted">Verantwortlichkeiten:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Aufbau eines neuen kompletten DWH’s für Attlassian JIRA</li>
+    
+        <li>Review Fachspezifikationen</li>
+    
+        <li>Erstellung Datenmodell</li>
+    
+        <li>Entwicklung und Umsetzung ETL Routinen</li>
+    
+        <li>Erstellung OBIEE Metadatenkatalog</li>
+    
+        <li>Erstellung OBIEE Berichte</li>
+    
+        <li>Entwicklung OBIEE Dashboard</li>
+    
+        <li>Dokumentation</li>
+    
+        <li>Schulung</li>
+    
+        <li>Coaching</li>
+    
+        <li>Projektunterstützung</li>
+    
+        <li>DV-Umgebung: Oracle RDBMS 11gR1 und 11gR2, Oracle Warehouse Builder 11gR1 und 11gR2, Oracle BI EE 10 und 11, SQL, PL/SQL, Atlassian Jira 4</li>
+    
+    </ul>
+    
+</div>
+
+
+
+       </div>
+     
+     
+   
+  </div>
+</div>
+
           </div>
-      </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-dimmed">
+            
+
+
+
+
+<div class="container-fluid anchor pb-5 education-section">
+  
+    <h1 class="text-center">
+        <span id="education"></span>Werdegang</h1>
+  
+
+  <div class="container">
+    <table class="education-info-table">
+        <tbody>
+            
+            
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5><a href="/" title="Freiberufler" target="_blank" rel="noopener">Freiberufler</a></h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">seit 07/2003</div>
+                            </div>
+                            <h6>Senior Consultant und Projektleiter, Business Intelligence And Warehouse</h6>
+                            
+                            
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5><a href="https://www.oracle.com/de/" title="Oracle Deutschland GmbH, München" target="_blank" rel="noopener">Oracle Deutschland GmbH, München</a></h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">08/1999–06/2003</div>
+                            </div>
+                            <h6>Senior Consultant und Projektleiter, Business Intelligence And Warehouse</h6>
+                            
+                            
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5><a href="https://www.wvg-gmbh.de/" title="WVG GmbH, Cottbus" target="_blank" rel="noopener">WVG GmbH, Cottbus</a></h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">08/1999–06/2003</div>
+                            </div>
+                            <h6>Controller, Projektmanager Informationssysteme</h6>
+                            
+                            
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5><a href="https://www.b-tu.de/" title="Brandenburgische Technische Universität Cottbus" target="_blank" rel="noopener">Brandenburgische Technische Universität Cottbus</a></h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">09/1990–02/1997</div>
+                            </div>
+                            <h6>Studium, Studiengang: Wirtschaftsingenieurwesen</h6>
+                            
+                            
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
     </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-white">
+            
+
+  
 
 
-    <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
-      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
-  width: 1.2em;" alt="Creative Commons">
-      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
-  width: 1.2em;" alt="CC-BY">
-      2023
-      Bert Pollack
+<div class="container-fluid anchor pb-5 projects-section" id="projects">
+  
+    <h1 class="text-center">
+        <span id="projects"></span>Kunden</h1>
+  
+  <div class="container ml-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="all">
+        All
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="Mobilfunk">
+        Mobilfunk
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="IT">
+        IT
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="Nahrung">
+        Nahrung
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="Medien">
+        Medien
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="Öffentliche Verwaltung">
+        Öffentliche Verwaltung
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="Finanzen">
+        Finanzen
+      </button>
+      
+      <button type="button" class="btn btn-dark project-filtr-control" data-filter="Versicherung">
+        Versicherung
+      </button>
+      
     </div>
   </div>
-</footer>
+  <div class="container filtr-projects">
+    <div class="row" id="project-card-holder">
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Mobilfunk'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.o2online.de/" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/o2.svg" alt="o2 Online" />
+            
+            
+            <h5 class="card-title mb-0">o2 Online</h5>
+          </div>
+          <div class="sub-title">
+            <span>Telefónica Deutschland Holding</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>O2 Online ist ein Telekommunikationsunternehmen, das Mobilfunk- und Breitbanddienste in Deutschland anbietet. Das Unternehmen bietet seinen Kunden eine breite Palette von Tarifen und Geräten sowie einen zuverlässigen Kundenservice.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Mobilfunk
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.o2online.de/"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, IT'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.oracle.com" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/oracle.svg" alt="Oracle" />
+            
+            
+            <h5 class="card-title mb-0">Oracle</h5>
+          </div>
+          <div class="sub-title">
+            <span>Oracle Corporation</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Oracle ist ein führendes Unternehmen im Bereich der Unternehmenssoftware und Datenbanken. Es bietet eine breite Palette von Cloud-Lösungen, darunter Datenbanken, Anwendungen, Plattformen und Infrastruktur. Oracle ist auch ein wichtiger Anbieter von Hardware-Systemen und bietet einen umfassenden Support und Schulungen für seine Produkte.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    IT
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.oracle.com"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Finanzen'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.postfinance.ch" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/postfinance.svg" alt="PostFinance" />
+            
+            
+            <h5 class="card-title mb-0">PostFinance</h5>
+          </div>
+          <div class="sub-title">
+            <span>PostFinance AG</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>PostFinance ist ein Finanzdienstleistungsunternehmen in der Schweiz und bietet eine breite Palette von Bankdienstleistungen an, einschließlich Zahlungsverkehr, Sparen, Kredite und Vermögensverwaltung. Das Unternehmen legt großen Wert auf digitale Innovation und bietet seinen Kunden eine einfache und bequeme Online-Banking-Plattform sowie mobile Anwendungen.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Finanzen
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.postfinance.ch"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, IT'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.nttdata.com/global/en/" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/ntt.svg" alt="NTT DATA" />
+            
+            
+            <h5 class="card-title mb-0">NTT DATA</h5>
+          </div>
+          <div class="sub-title">
+            <span>Nippon Telegraph and Telephone Group</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>NTT DATA ist ein globales IT-Unternehmen, das eine breite Palette von IT-Dienstleistungen anbietet, darunter Beratung, Systemintegration, Outsourcing und Cloud-Lösungen. Das Unternehmen ist auch führend in den Bereichen künstliche Intelligenz, IoT und Big Data Analytics und bietet seinen Kunden innovative Lösungen für ihre geschäftlichen Herausforderungen. NTT DATA hat seinen Hauptsitz in Japan und ist in über 50 Ländern tätig.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    IT
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.nttdata.com/global/en/"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Medien'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.sueddeutscher-verlag.de/" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/sv.svg" alt="Süddeutscher Verlag GmbH" />
+            
+            
+            <h5 class="card-title mb-0">Süddeutscher Verlag GmbH</h5>
+          </div>
+          <div class="sub-title">
+            <span>Südwestdeutsche Medien Holding GmbH</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Die Süddeutscher Verlag GmbH ist ein führendes Medienunternehmen in Deutschland und veröffentlicht unter anderem die Süddeutsche Zeitung. Das Unternehmen bietet seinen Kunden auch digitale Medienprodukte, darunter Webseiten, Apps und E-Books. Mit seinen hochwertigen Inhalten und einem starken Fokus auf Qualität und Unabhängigkeit hat sich der Süddeutscher Verlag GmbH als eine vertrauenswürdige Informationsquelle etabliert.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Medien
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.sueddeutscher-verlag.de/"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Öffentliche Verwaltung'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.bamf.de/DE/Startseite/startseite_node.html" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/bamf.svg" alt="BAMF" />
+            
+            
+            <h5 class="card-title mb-0">BAMF</h5>
+          </div>
+          <div class="sub-title">
+            <span>Bundesamt für Migration und Flüchtlinge</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Das Bundesamt für Migration und Flüchtlinge (BAMF) ist eine Bundesbehörde in Deutschland, die für die Durchführung von Asylverfahren und die Integration von Migranten zuständig ist. Das BAMF setzt sich für eine faire und humane Behandlung von Flüchtlingen ein.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Öffentliche Verwaltung
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.bamf.de/DE/Startseite/startseite_node.html"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Mobilfunk'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.dfmg.de/de/startseite.html" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/dfmg.svg" alt="Deutsche Funkturm GmbH" />
+            
+            
+            <h5 class="card-title mb-0">Deutsche Funkturm GmbH</h5>
+          </div>
+          <div class="sub-title">
+            <span>Deutsche Telekom AG</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Die Deutsche Funkturm GmbH ist ein Tochterunternehmen der Deutschen Telekom und betreibt rund 29.000 Mobilfunkstandorte in Deutschland. Das Unternehmen bietet seinen Kunden maßgeschneiderte Lösungen für ihre Mobilfunkinfrastruktur und sorgt für eine zuverlässige und schnelle Mobilfunkversorgung.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Mobilfunk
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.dfmg.de/de/startseite.html"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Nahrung'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.krones.com/en/" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/krones.svg" alt="KRONES" />
+            
+            
+            <h5 class="card-title mb-0">KRONES</h5>
+          </div>
+          <div class="sub-title">
+            <span>Krones AG</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Krones ist ein führender Hersteller von Verpackungs- und Abfüllanlagen für die Getränke- und Lebensmittelindustrie. Das Unternehmen bietet innovative Lösungen für seine Kunden und legt großen Wert auf Nachhaltigkeit und Effizienz in der Produktion.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Nahrung
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.krones.com/en/"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Finanzen'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.consorsfinanz.de/" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/consors.svg" alt="Consors Finanz" />
+            
+            
+            <h5 class="card-title mb-0">Consors Finanz</h5>
+          </div>
+          <div class="sub-title">
+            <span>BNP Paribas S.A. Niederlassung Deutschland</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Consors Finanz ist ein führender Anbieter von Finanzdienstleistungen in Deutschland. Das Unternehmen bietet seinen Kunden eine breite Palette von Finanzprodukten, darunter Kredite, Versicherungen und Zahlungslösungen. Consors Finanz legt großen Wert auf eine einfache und kundenorientierte Abwicklung.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Finanzen
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.consorsfinanz.de/"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, IT'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.siemens.com/de/de.html" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/siemens.svg" alt="Siemens" />
+            
+            
+            <h5 class="card-title mb-0">Siemens</h5>
+          </div>
+          <div class="sub-title">
+            <span>Siemens AG</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Siemens ist ein globales Unternehmen mit Hauptsitz in Deutschland, das in den Bereichen Elektrifizierung, Automatisierung und Digitalisierung tätig ist. Das Unternehmen bietet innovative Lösungen für Energie, Mobilität und Industrie und setzt sich für Nachhaltigkeit und soziale Verantwortung ein.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    IT
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.siemens.com/de/de.html"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, Versicherung,Finanzen'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.aok.de/pk/" target="_blank" rel="noopener">
+        <div>
+          <div class="d-flex">
+            
+
+            
+            
+            
+            
+
+            <img class="card-img-xs" src="/images/sections/skills/aok.svg" alt="AOK" />
+            
+            
+            <h5 class="card-title mb-0">AOK</h5>
+          </div>
+          <div class="sub-title">
+            <span>Allgemeine Ortskrankenkasse</span>
+            <span>TODO Jahre</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Die AOK (Allgemeine Ortskrankenkasse) ist eine gesetzliche Krankenkasse in Deutschland und bietet ihren Mitgliedern eine umfassende medizinische Versorgung. Das Unternehmen setzt sich für Prävention und Gesundheitsförderung ein und legt großen Wert auf eine individuelle Betreuung.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    Versicherung
+                  </span>
+              
+                  <span class="badge btn-info">
+                    Finanzen
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            <span>
+              <a
+                class="btn btn-outline-info btn-sm"
+                href="https://www.aok.de/pk/"
+                target="#"
+                >Details</a
+              >
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-dimmed">
+            
+
+  
 
 
-<!-- JS Plugins -->
+<div class="container-fluid anchor pb-5 achievements-section">
+  
+    <h1 class="text-center">
+        <span id="achievements"></span>Schwerpunkte &amp; Erfolge</h1>
+  
+  <div class="container">
+    <div class="row" id="gallery">
+    </div>
+  </div>
+  
+  <div class="d-none" id="achievements-holder">
+    
+      
 
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/architecture_hu177bb2560dde0c42c8cbd8f5028b5b16_141067_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Architektur, Entwurf, Design und Entwicklung von Business Intelligence Systemen und Datenbankmodellen</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Architektur, Entwurf, Design und Entwicklung von Business Intelligence Systemen und Datenbankmodellen</h4>
+    <p>Als Experte für Architektur, Entwurf, Design und Entwicklung von Business Intelligence Systemen und Datenbankmodellen beschäftige ich mich mit der Konzeption, Gestaltung und Umsetzung von datengetriebenen Lösungen für Unternehmen. Dabei analysiere ich Geschäftsprozesse, erstelle Datenmodelle und implementiere komplexe BI-Systeme, um umfassende Einblicke in geschäftliche Abläufe zu gewinnen. Mein Ziel ist es, maßgeschneiderte Datenlösungen zu entwickeln, die die Leistung von Unternehmen steigern und Entscheidungsprozesse optimieren.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/architecture_hu177bb2560dde0c42c8cbd8f5028b5b16_141067_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/architecture_hu177bb2560dde0c42c8cbd8f5028b5b16_141067_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/etl_hu95744dcdc9037aaaa77a18bb9f61e904_91206_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Umsetzung komplexer ETL - Prozesse, u.a. mit den Tools Oracle Date Integrator (ODI) sowie SQL und PL/SQL</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Umsetzung komplexer ETL - Prozesse, u.a. mit den Tools Oracle Date Integrator (ODI) sowie SQL und PL/SQL</h4>
+    <p>Als Experte für die Umsetzung komplexer ETL-Prozesse mit Oracle Data Integrator (ODI) und SQL sowie PL/SQL beschäftige ich mich mit der Entwicklung und Implementierung von Datenintegrationslösungen für Unternehmen. Ich arbeite eng mit den internen Teams zusammen, um Datenquellen zu identifizieren, Datenmodelle zu erstellen und ETL-Prozesse zu konzipieren. Dabei setze ich auf die neuesten Technologien und Best Practices, um sicherzustellen, dass die Datenintegrationsprozesse reibungslos ablaufen und die Datenqualität sichergestellt ist. Mein Ziel ist es, umfassende, skalierbare und effiziente Datenintegrationslösungen zu entwickeln, die den Geschäftsanforderungen entsprechen.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/etl_hu95744dcdc9037aaaa77a18bb9f61e904_91206_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/etl_hu95744dcdc9037aaaa77a18bb9f61e904_91206_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/oracle_bi_hu175404d018ed9ce503d2c8204486b90d_91315_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Aufbau operativer und analytischer Auswertungssysteme auf Basis von Oracle Business Intelligence Enterprise Edition (OBIEE)</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Aufbau operativer und analytischer Auswertungssysteme auf Basis von Oracle Business Intelligence Enterprise Edition (OBIEE)</h4>
+    <p>Als Experte für den Aufbau operativer und analytischer Auswertungssysteme auf Basis von Oracle Business Intelligence Enterprise Edition (OBIEE) beschäftige ich mich mit der Konzeption, Entwicklung und Implementierung von BI-Lösungen für Unternehmen. Ich arbeite eng mit den internen Teams zusammen, um Geschäftsprozesse zu analysieren, Datenquellen zu identifizieren und Dashboards, Reports und Analysen zu konzipieren und zu erstellen. Dabei setze ich auf die neuesten Technologien und Best Practices, um sicherzustellen, dass die BI-Lösungen den Geschäftsanforderungen entsprechen und den Entscheidungsprozess verbessern. Mein Ziel ist es, skalierbare, benutzerfreundliche und leistungsfähige BI-Lösungen zu entwickeln, die einen Mehrwert für Unternehmen bieten.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/oracle_bi_hu175404d018ed9ce503d2c8204486b90d_91315_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/oracle_bi_hu175404d018ed9ce503d2c8204486b90d_91315_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/reports_huf8c4c04ffc8c498ca4441d50475e1846_133583_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Fachliche und technische Definition von Reporten, Umsetzung dieser sowie Einweisung der Endbenutzer</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Fachliche und technische Definition von Reporten, Umsetzung dieser sowie Einweisung der Endbenutzer</h4>
+    <p>Als Experte für die fachliche und technische Definition von Reports, die Umsetzung und Einweisung der Endbenutzer beschäftige ich mich mit der Erstellung von benutzerdefinierten Reports, Dashboards und Analysen für Unternehmen. Ich arbeite eng mit den internen Teams zusammen, um Anforderungen zu ermitteln, Datenquellen zu identifizieren und Reportdesigns und -spezifikationen zu erstellen. Dabei setze ich auf die neuesten Technologien und Best Practices, um sicherzustellen, dass die Reports den Geschäftsanforderungen entsprechen und benutzerfreundlich sind. Mein Ziel ist es, leistungsfähige und skalierbare Reporting-Lösungen zu entwickeln, die den Entscheidungsprozess unterstützen und die Endbenutzer befähigen, Daten effektiv zu analysieren.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/reports_huf8c4c04ffc8c498ca4441d50475e1846_133583_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/reports_huf8c4c04ffc8c498ca4441d50475e1846_133583_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/data_integration_hu3d22705a8ea5d2b26c51ae630b324f2b_75463_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Integration verschiedener Datenquellen in ein Zielsystem</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Integration verschiedener Datenquellen in ein Zielsystem</h4>
+    <p>Als Experte für die Integration verschiedener Datenquellen in ein Zielsystem beschäftige ich mich mit der Konzeption und Umsetzung von Datenintegrationslösungen für Unternehmen. Ich arbeite eng mit den internen Teams zusammen, um Datenquellen zu identifizieren, Daten zu extrahieren, zu transformieren und zu laden, und um sicherzustellen, dass die Datenqualität und -integrität gewährleistet ist. Dabei setze ich auf die neuesten Technologien und Best Practices, um sicherzustellen, dass die Datenintegrationslösungen den Geschäftsanforderungen entsprechen und die Daten konsistent und aktuell sind. Mein Ziel ist es, zuverlässige und skalierbare Datenintegrationslösungen zu entwickeln, die den Entscheidungsprozess unterstützen und das Unternehmen in seiner datengesteuerten Strategie unterstützen.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/data_integration_hu3d22705a8ea5d2b26c51ae630b324f2b_75463_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/data_integration_hu3d22705a8ea5d2b26c51ae630b324f2b_75463_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/performance_hu31c82a870c0d7f0a400703b4f4d708f7_120204_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Performance- und Laufzeit-Optimierung von ETL-Prozessen um 70 % durch Reorganisation von Systemprozessen</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Performance- und Laufzeit-Optimierung von ETL-Prozessen um 70 % durch Reorganisation von Systemprozessen</h4>
+    <p>Als Experte für Performance- und Laufzeit-Optimierung von ETL-Prozessen beschäftige ich mich mit der Analyse und Optimierung von bestehenden Datenintegrationslösungen für Unternehmen. Durch die Reorganisation von Systemprozessen, Anpassung von Datenbankindizes, Implementierung von Partitionierungsstrategien und Optimierung von SQL-Statements erreiche ich eine signifikante Verbesserung der ETL-Performance und Laufzeit um bis zu 70%. Dabei setze ich auf die neuesten Technologien und Best Practices, um sicherzustellen, dass die Datenintegrationslösungen den Geschäftsanforderungen entsprechen und die Daten konsistent und aktuell sind. Mein Ziel ist es, zuverlässige und skalierbare Datenintegrationslösungen zu entwickeln, die den Entscheidungsprozess unterstützen und das Unternehmen in seiner datengesteuerten Strategie unterstützen.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/performance_hu31c82a870c0d7f0a400703b4f4d708f7_120204_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/performance_hu31c82a870c0d7f0a400703b4f4d708f7_120204_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/leadership_hu30140fdbce14565e4dc0942b9fa506c9_104432_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Projektleitung und Koordination von Teams (Fachabteilung, IT)</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Projektleitung und Koordination von Teams (Fachabteilung, IT)</h4>
+    <p>Als Projektleiter und Koordinator von Teams für Fachabteilungen und IT-Projekte bin ich verantwortlich für die erfolgreiche Durchführung von Projekten von der Konzeption bis zur Implementierung. Ich koordiniere die Arbeit der verschiedenen Teams, setze klare Ziele und schaffe die notwendige Infrastruktur für die Zusammenarbeit und den Informationsaustausch. Dabei sorge ich für eine reibungslose Kommunikation zwischen den Teams und Stakeholdern und behalte stets die Einhaltung von Budget und Zeitplan im Auge. Mein Ziel ist es, sicherzustellen, dass alle Projektleistungen und Meilensteine erreicht werden und das Projekt erfolgreich abgeschlossen wird, um den Anforderungen der Fachabteilungen gerecht zu werden.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/leadership_hu30140fdbce14565e4dc0942b9fa506c9_104432_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/leadership_hu30140fdbce14565e4dc0942b9fa506c9_104432_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/optimization_hu1c54f01f8395c633e46b1a225d96e633_85831_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Datenbank - Programmierung, - Tuning und - Optimierung in Oracle</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Datenbank - Programmierung, - Tuning und - Optimierung in Oracle</h4>
+    <p>In meiner Rolle als Experte für Datenbank-Programmierung, -Tuning und -Optimierung in Oracle habe ich jahrelange Erfahrung in der Erstellung und Optimierung von Datenbanken auf Oracle-Basis. Ich bin vertraut mit der Programmierung in PL/SQL und SQL und arbeite eng mit Entwicklern und Datenbankadministratoren zusammen, um sicherzustellen, dass Datenbankanwendungen effizient und optimal funktionieren. Ich identifiziere und behebe Performance-Engpässe, optimiere Datenbank-Abfragen und -Prozesse und verbessere die Sicherheit und Stabilität der Datenbanken. Dabei arbeite ich eng mit den Fachabteilungen zusammen, um ihre Anforderungen zu verstehen und zu erfüllen, indem ich innovative Lösungen und bewährte Best Practices anwende. Mein Ziel ist es, eine zuverlässige und leistungsfähige Datenbankinfrastruktur zu schaffen, die den Geschäftsanforderungen entspricht und die Anwendungen unterstützt, auf die sich die Unternehmen verlassen.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/optimization_hu1c54f01f8395c633e46b1a225d96e633_85831_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/optimization_hu1c54f01f8395c633e46b1a225d96e633_85831_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/processes_hu335b909344f0e102aeb88494d848495a_171151_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Definition und Einführung einer Prozessvorgehensweise für die Übergabe von entwickelten Programmen und Paketen in eine Test- und anschließend in die Produktivumgebung</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Definition und Einführung einer Prozessvorgehensweise für die Übergabe von entwickelten Programmen und Paketen in eine Test- und anschließend in die Produktivumgebung</h4>
+    <p>Als Experte für die Definition und Einführung von Prozessvorgehensweisen für die Übergabe von entwickelten Programmen und Paketen in eine Test- und Produktivumgebung, habe ich umfassende Erfahrung in der Erstellung und Umsetzung von effektiven Prozessen, um eine reibungslose Übergabe von Entwicklungsprojekten in Test- und Produktionsumgebungen sicherzustellen. Ich arbeite eng mit den Entwicklern und Testern zusammen, um sicherzustellen, dass die entwickelten Programme und Pakete den Anforderungen entsprechen und qualitativ hochwertig sind. Ich definiere und dokumentiere die erforderlichen Schritte für die Übertragung der entwickelten Artefakte in die Testumgebung und sorge für eine erfolgreiche Durchführung von Tests. Sobald die Tests abgeschlossen sind, definiere und dokumentiere ich den Prozess für die Übertragung in die Produktionsumgebung und sorge dafür, dass alle beteiligten Parteien über die Verfahrensweise informiert und geschult werden. Mein Ziel ist es, einen standardisierten Prozess zu schaffen, der die Effizienz und Qualität der Entwicklungsprojekte und die Zufriedenheit der Benutzer erhöht.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/processes_hu335b909344f0e102aeb88494d848495a_171151_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/processes_hu335b909344f0e102aeb88494d848495a_171151_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+      
+
+
+
+
+
+  
+  
+  
+  
+
+
+<div 
+  class="achievement-entry text-center"
+  style="background-image: url('/images/sections/achievements/environments_hu080df20da299eecebee596b228338fa2_139273_0x300_resize_q75_box.jpeg');"
+>
+  <i class="fa-solid fa-xmark hidden"></i>
+  <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
+  <h4 class="title" id="achievement-title">Architekturdefinition von Test- und Produktivumgebungen (Oracle Datenbanken)</h4>
+  <div class="caption hidden col-lg-6 text-left" id="caption">
+    <h4>Architekturdefinition von Test- und Produktivumgebungen (Oracle Datenbanken)</h4>
+    <p>Als Architekt für Test- und Produktivumgebungen mit Schwerpunkt auf Oracle-Datenbanken bringe ich umfassende Erfahrung in der Architekturdefinition und Konfiguration von Test- und Produktivumgebungen mit. Ich habe die Fähigkeit, maßgeschneiderte Architekturen für Kunden zu entwerfen und zu implementieren, die auf den spezifischen Anforderungen und Anwendungsfällen basieren. Meine Expertise umfasst das Design und die Implementierung von High-Availability-Systemen, Disaster Recovery-Lösungen, skalierbaren Systemarchitekturen und Performancetuning von Oracle-Datenbanken. Durch die Zusammenarbeit mit Entwicklern und IT-Teams kann ich die Architektur und Konfiguration der Test- und Produktivumgebungen optimieren und sicherstellen, dass die Systeme den Anforderungen der Anwendungsfälle entsprechen. Mein Ziel ist es, sicherzustellen, dass Test- und Produktivumgebungen effektiv und effizient eingesetzt werden und eine hohe Verfügbarkeit, Leistung und Sicherheit bieten.</p>
+    
+  </div>
+  <span style="background-image: url('/images/sections/achievements/environments_hu080df20da299eecebee596b228338fa2_139273_0x300_resize_q75_box.jpeg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/environments_hu080df20da299eecebee596b228338fa2_139273_0x1500_resize_q75_box.jpeg');" class="d-none" id="LargeImage"></span>
+</div>
+
+    
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://bp-dwh.de#about">Über mich</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://bp-dwh.de#skills">Kenntnisse</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://bp-dwh.de#experiences">Erfahrung</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://bp-dwh.de#education">Werdegang</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://bp-dwh.de#projects">Kunden</a>
+                </li>
+              
+              
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://bp-dwh.de#achievements">Schwerpunkte &amp; Erfolge</a>
+                </li>
+              
+            
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="/legal/imprint">Impressum</a>
+                    </li>
+                
+              
+                
+                    <li class="nav-item">
+                      <a class="smooth-scroll" href="/legal/privacy">Datenschutz</a>
+                    </li>
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Kontaktiere mich:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:bert.pollack@bp-dwh.de target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>bert.pollack@bp-dwh.de</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.linkedin.com/in/bert-pollack-738a9b129 target="_blank" rel="noopener">
+                  <span><i class="fab fa-linkedin"></i></span> <span>Bert Pollack</span>
+                </a></li>
+              
+            
+              
+                <li><span><i class="fas fa-phone-alt"></i></span> <span>&#43;49 174 2769064</span></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    <hr />
+    <div class="container">
+      <p id="disclaimer"><strong>Haftungshinweis:</strong> Dieses Theme steht unter der MIT-Lizenz. Sie können es also für nicht-kommerzielle, kommerzielle oder private Zwecke verwenden. Sie können das Theme verändern oder weitergeben, ohne eine Erlaubnis des Theme-Autors zu benötigen. Der Autor des Themes übernimmt jedoch keine Garantie oder Haftung für Probleme mit dem Theme.</p>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2023 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Unterstützt von
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.76e5c769424a5ab5bd01b8424790114cfbb85a7be7bf3c3b93091a6770bbb496.js" integrity="sha256-duXHaUJKWrW9AbhCR5ARTPu4Wnvnvzw7kwkaZ3C7tJY=" defer></script>
+
+
+
+    
+    
 
 </body>
 </html>

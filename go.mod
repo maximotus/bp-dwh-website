@@ -1,5 +1,5 @@
-module example
+module github.com/hugo-toha/hugo-toha.github.io
 
-go 1.14
+go 1.19
 
-require github.com/samrobbins85/hugo-developer-portfolio v0.0.0-20221210153947-c30bea49d2b1 // indirect
+require github.com/hugo-toha/toha/v4 v4.0.0-20230127171959-e5fcc95e8b8d // indirect

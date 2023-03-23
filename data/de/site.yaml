@@ -1,0 +1,37 @@
+# Copyright Notice
+copyright: © 2023 Copyright.
+
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+disclaimer: "Dieses Theme steht unter der MIT-Lizenz. Sie können es also für nicht-kommerzielle, kommerzielle oder private Zwecke verwenden.
+Sie können das Theme verändern oder weitergeben, ohne eine Erlaubnis des Theme-Autors zu benötigen.
+Der Autor des Themes übernimmt jedoch keine Garantie oder Haftung für Probleme mit dem Theme."
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Bert Pollack – Data Warehouse Spezialist aus München, Deutschland.
+
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
+customMenus:
+#- name: Docs
+  # url: https://toha-guides.netlify.app/posts/
+  # specify whether to hide the menu item from top navbar or not.
+  # hideFromNavbar: false
+  # specify whether to show the menu item in footer or not.
+  # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
+  # showOnFooter: false
+- name: Impressum
+  hideFromNavbar: true
+  showOnFooter: true
+  url: /legal/imprint
+- name: Datenschutz
+  hideFromNavbar: true
+  showOnFooter: true
+  url: /legal/privacy
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Bert Pollack – Data Warehouse Spezialist aus München, Deutschland.
+  type: website
+  description: Portfolio Website des Freiberuflers Bert Pollack aus München, Deutschland.
+  image: images/author/profile.jpg
+  url: https://hugo-toha.github.io
