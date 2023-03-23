@@ -62,7 +62,7 @@ params:
     favicon: /images/site/main-logo-transparent.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/maximotus/hugo-toha.github.io
+  gitRepo: https://github.com/maximotus/bp-dwh-website
   # Default branch of your Git repo
   gitBranch: main
 
@@ -284,4 +284,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false
