@@ -6,7 +6,7 @@ greeting: ""
 image: "images/author/profile.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "bert.pollack@bp-dwh.de"
+  email: "info@bp-dwh.de"
   phone: "+49 174 2769064"
   # github: johndoe
   linkedin: bert-pollack-738a9b129
