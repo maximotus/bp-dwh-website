@@ -26,6 +26,8 @@ buttons:
   filter: "Finanzen"
 - name: Versicherung
   filter: "Versicherung"
+- name: Gesundheit
+  filter: "Gesundheit"
 
 # your projects
 projects:
@@ -116,3 +118,27 @@ projects:
   url: "https://www.aok.de/pk/" 
   summary: Die AOK (Allgemeine Ortskrankenkasse) ist eine gesetzliche Krankenkasse in Deutschland und bietet ihren Mitgliedern eine umfassende medizinische Versorgung. Das Unternehmen setzt sich für Prävention und Gesundheitsförderung ein und legt großen Wert auf eine individuelle Betreuung.
   tags: ["Versicherung", "Finanzen"]
+
+- name: München
+  logo: /images/sections/skills/muc.svg
+  role: Stadt München
+  timeline: "5 Jahre"
+  url: "https://www.muenchen.de/" 
+  summary: Die Stadt München ist die Landeshauptstadt von Bayern und die drittgrößte Stadt Deutschlands. Sie ist ein wichtiger Wirtschaftsstandort und kulturelles Zentrum mit zahlreichen Museen, Theatern und Veranstaltungen. Zudem bietet München eine hohe Lebensqualität durch Parks, Seen und eine vielfältige gastronomische Szene.
+  tags: ["Öffentliche Verwaltung"]
+
+- name: KVB
+  logo: /images/sections/skills/kvb.svg
+  role: Kassenärztliche Vereinigung Bayerns
+  timeline: "5 Jahre"
+  url: "https://www.kvb.de/" 
+  summary: Die Kassenärztliche Vereinigung Bayerns (KVB) ist eine Organisation, die die Interessen der Vertragsärzte und Psychotherapeuten in Bayern vertritt. Sie ist zuständig für die Zulassung, Abrechnung und Qualitätssicherung der medizinischen Versorgung in Bayern.
+  tags: ["Versicherung", "Gesundheit", "Finanzen"]
+
+- name: Alcon
+  logo: /images/sections/skills/alcon.svg
+  role: ALCON Deutschland GmbH
+  timeline: "2 Jahre"
+  url: "https://www.de.alcon.com/de" 
+  summary: Alcon ist ein führendes Unternehmen auf dem Gebiet der Augenheilkunde und bietet innovative Lösungen für die Behandlung von Augenkrankheiten und -störungen an. Das Unternehmen produziert eine breite Palette von Produkten wie Kontaktlinsen, chirurgische Instrumente und Arzneimittel für die Augenpflege. Alcon ist in über 75 Ländern tätig und hat seinen Hauptsitz in der Schweiz.
+  tags: ["Gesundheit"]
