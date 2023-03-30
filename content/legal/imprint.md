@@ -17,6 +17,10 @@ Geyerspergerstraße 44
 Telefon: + (0) 49 (0) 174 2769064
 E-Mail: info@bp-dwh.de
 
+## Umsatzsteuer-Identifikationsnummer (Umsatzsteuer-ID)
+
+Umsatzsteuer-Identifikationsnummer gem. § 27 a Umsatzsteuergesetz: DE138809872
+
 ## Verbraucher­streit­beilegung/Universal­schlichtungs­stelle
 
 Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
